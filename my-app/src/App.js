@@ -1,4 +1,4 @@
-function App() {
+export default function App() {
   return (
     <div>
     Ola! Mundo!
@@ -6,4 +6,3 @@ function App() {
   );
 }
 
-export default App;
