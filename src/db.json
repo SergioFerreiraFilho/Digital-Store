@@ -1,0 +1,45 @@
+{
+  "produtos": [
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 1
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 2
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 3
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 4
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 5
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 6
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 7
+    },
+    {
+      "nome": "K-Wiss V8 - Masculino",
+      "preco": "$100",
+      "id": 8
+    }
+  ],
+  "usuarios": []
+}
