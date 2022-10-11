@@ -1,6 +1,8 @@
+import "./style.css"
+
 export default function Input () {
     return (
-        <div>
+        <div className="header-input">
             <input placeholder="Pesquisar produto..."/>
             <img/>
         </div>

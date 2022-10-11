@@ -1,4 +1,4 @@
-import img from '../../../../assets/carrinho.svg'
+import img from '../../../../assets/Header/carrinho.svg'
 import './style.css'
 
 export default function Carrinho () {

@@ -1,0 +1,26 @@
+.header-principal {
+    display: flex;
+    width: 1440px;
+    height: 192px;
+    border: 1px;
+}
+
+.header-logo-name {
+    display: flex;
+    padding-left: 104px ;
+}
+
+.header-logo {
+    height: 33px;
+    width: 33px;
+    padding-top: 47px;
+    padding-bottom: 112px;
+}
+
+.header-h2 {
+    height: 44px;
+    width: 212px;
+    padding-top: 42px;
+    font-size: 36.4px;
+    padding-bottom: 106px;
+}
