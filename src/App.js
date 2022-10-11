@@ -1,10 +1,9 @@
 
 
-
 export default function App() {
   return (
     <div>
-     <Router/>
+     {/* <Router/> */}
     </div>
   );
 }
