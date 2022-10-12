@@ -28,7 +28,7 @@
 # Diene => https://github.com/DieneLopes
 # Ciro => https://github.com/cirojales
 # Matheus => https://github.com/SergioMatheuss
-# Neville =>
+# Neville => https://github.com/n3vill
 # Samuel => https://github.com/Smz1n
 # Marcelo => https://github.com/cerealpuppet
 
