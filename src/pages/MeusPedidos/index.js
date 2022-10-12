@@ -1,7 +1,7 @@
 export default function MeusPedidos () {
     return (
         <div>
-            {/* Página pedidos */}
+            Página pedidos
         </div>
     );
 }

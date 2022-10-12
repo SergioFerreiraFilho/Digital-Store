@@ -14,7 +14,7 @@ export default function Routers(){
                     <Route  path="/" element={<Home/>}/>
                     <Route  path="/produtos" element={<Produtos/>}/>
                     <Route  path="/categorias" element={<Categorias/>}/>
-                    <Route  path="/meusPedidos" element={<MeusPedidos/>}/>
+                    <Route  path="/meus-pedidos" element={<MeusPedidos/>}/>
                 </Routes>
         </BrowserRouter>
     );
