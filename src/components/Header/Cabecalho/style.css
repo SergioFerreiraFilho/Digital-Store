@@ -1,13 +1,20 @@
+@font-face {
+    font-family: inter;
+    src: url(/src/Inter-SemiBold.ttf);
+}
+
 .header-principal {
     display: flex;
-    width: 1440px;
+    justify-content: space-between;
     height: 192px;
     border: 1px;
+    width: 100%;
 }
+
 
 .header-logo-name {
     display: flex;
-    padding-left: 104px ;
+
 }
 
 .header-logo {
@@ -18,9 +25,39 @@
 }
 
 .header-h2 {
+    font-family: inter;
     height: 44px;
-    width: 212px;
-    padding-top: 42px;
+    padding-top: 47px;
     font-size: 36.4px;
-    padding-bottom: 106px;
+    justify-content: center;
+    margin-left: 8px;
+    color: #C92071;
+}
+
+.header-cadastrese {
+    padding-top: 50px;
+    width: 110px;
+    font-size: 16px;
+    height: 28px;
+    color: #474747;
+    font-weight: 400;
+    font-family: inter;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration-line: underline;
+
+}
+
+.header-button {
+    background-color: #C92071;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 44px;
+}
+
+.header-entrar {
+    color: white;
+    text-decoration: none;
 }

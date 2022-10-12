@@ -1,4 +1,15 @@
-.header-input {
-    display: flex;
-    padding-top: 34px;
+.header-input-input {
+    width: 559px;
+    height: 60px;
+    margin-top: 34px;
+    border-radius: 8px;
+    background: #F8F8F8;
+    border: none;
+    
+   
+}
+
+.header-input-input::placeholder {
+    color: #A0A0A0;
+    padding-left: 24px;
 }

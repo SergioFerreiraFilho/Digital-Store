@@ -5,6 +5,7 @@ import MeusPedidos from "../pages/MeusPedidos";
 import Categorias from "../pages/Categorias";
 import Header from "../components/Header";
 
+
 export default function Routers(){
     return(
         <BrowserRouter>

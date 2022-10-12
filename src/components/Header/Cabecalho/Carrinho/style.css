@@ -1,7 +1,25 @@
+.header-carrinho {
+    width: 18.5px;
+    height: 18.1px;
+    margin-top: 55.25px;
+    left: 1309.75px;
+}
+
+
 .bolinha {
-    height: 40px;
-    width: 40px;
+    position: absolute;
+    height: 17px;
+    width: 17px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: #EE4266;
     text-align: center;
+    top: 47px;
+    left: 1240px;
+    color: white;
+    font-family: inter;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-weight: 700px;
+    padding-bottom: 1px;
 }
