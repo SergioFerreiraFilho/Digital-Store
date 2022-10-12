@@ -4,9 +4,12 @@ import "./style.css"
 
 export default function Header() {
     return (
-        <div className="header-header">
-            <Cabecalho />
-            <Nav />
+        <div className="container">
+            <div className="header-header">
+                <Cabecalho />
+                <Nav />
+            </div>
         </div>
+        
     );
 }

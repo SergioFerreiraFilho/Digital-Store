@@ -1,7 +1,7 @@
 export default function Categorias () {
     return (
         <div>
-            {/* Página de categorias. */}
+            Página de categorias.
         </div>
     );
 }
