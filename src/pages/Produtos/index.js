@@ -1,7 +1,7 @@
 export default function Produtos () {
     return (
         <div>
-            Pagina de Produtos
+            {/* Pagina de Produtos */}
         </div>
     );
 }
