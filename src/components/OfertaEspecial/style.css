@@ -21,10 +21,6 @@ body {
   background-color: #ffffff;
 }
 
-* {
-  /* border: 1px solid black; */
-}
-
 .esquerda {
   /* background-color: red; */
   flex: 1;
