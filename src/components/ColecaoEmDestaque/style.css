@@ -13,6 +13,7 @@
     height: 38px;
     letter-spacing: 0.75px;
     color: #474747;
+    margin-bottom: 20px;
 }
 
 .lista {
@@ -22,11 +23,11 @@
 
 .lista-li-1 {
     width: 32%;
-    height: 273px;
+    height: 258px;
 
     background-image: url(../../assets/ColecaoEmDestaque/img-blusa.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 8px;
 }
 
@@ -55,18 +56,18 @@
 }
 
 .lista-li-p {
-    width: 66px;
-    height: 22px;
+    width: 90px;
+    height: 27px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 22px;
+    /* line-height: 22px; */
     letter-spacing: 0.75px;
     text-align: center;
     border-radius: 29px;
-    padding: 5px 15px;
+    padding: 8px 15px;
 
     color: #474747;
     background-color: #E7FF86;

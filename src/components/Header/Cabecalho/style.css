@@ -6,7 +6,7 @@
 .header-principal {
     display: flex;
     justify-content: space-between;
-    height: 192px;
+    height: 160px;
     border: 1px;
     width: 100%;
 }
@@ -18,10 +18,10 @@
 }
 
 .header-logo {
-    height: 33px;
+    height: 34px;
     width: 33px;
-    padding-top: 47px;
-    padding-bottom: 112px;
+    margin-top: 47px;
+    /* padding-bottom: 112px; */
 }
 
 .header-h2 {

@@ -1,6 +1,12 @@
+.navegacao{
+    
+}
+
+
 .home {
-    position: absolute;
-    width: 74px;
+    
+    /* position: absolute; */
+    width: 60px;
     height: 28px;
     top: 134px;
     left: 117px;
@@ -18,7 +24,7 @@
 }
 
 .produtos {
-    position: absolute;
+    /* position: absolute; */
     width: 74px;
     height: 28px;
     left: 181px;
@@ -38,7 +44,7 @@
 }
 
 .categorias {
-    position: absolute;
+    /* position: absolute; */
     width: 89px;
     height: 28px;
     left: 287px;
@@ -58,8 +64,8 @@
 }
 
 .meus-pedidos {
-    position: absolute;
-    width: 115px;
+    /* position: absolute; */
+    width: 155px;
     height: 28px;
     left: 408px;
     right: 917px;
@@ -76,8 +82,13 @@
     color: #474747;
 }
 
+.meus-pedidos:hover, .categorias:hover, .produtos:hover, .home:hover{
+    color: #474747;
+}
+
+/*css para quando estiver na página selecionada*/
 .ativarHome {
-    position: absolute;
+    /* position: absolute; */
     width: 74px;
     height: 28px;
     top: 134px;
@@ -96,7 +107,7 @@
 }
 
 .ativarProdutos {
-    position: absolute;
+    /* position: absolute; */
     width: 74px;
     height: 28px;
     left: 181px;
@@ -116,7 +127,7 @@
 }
 
 .ativarCategorias {
-    position: absolute;
+    /* position: absolute; */
     width: 89px;
     height: 28px;
     left: 287px;
@@ -136,7 +147,7 @@
 }
 
 .ativarMeus-pedidos {
-    position: absolute;
+    /* position: absolute; */
     width: 115px;
     height: 28px;
     left: 408px;
@@ -152,4 +163,8 @@
     padding-left: 32px;
     color: #C92071; 
     text-decoration: underline;
+}
+
+.ativarHome:hover, .ativarCategorias:hover, .ativarMeus-pedidos:hover, .ativarProdutos:hover{
+    color: #C92071;
 }
