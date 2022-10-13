@@ -1,9 +1,9 @@
 import "./style.css"
 
-export default function Produtos () {
+export default function Cadastrar () {
     return (
         <div>
-            Pagina de Produtos
+            Página de cadastrar
         </div>
     );
 }

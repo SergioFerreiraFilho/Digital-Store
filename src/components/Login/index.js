@@ -1,9 +1,9 @@
 import "./style.css"
 
-export default function Produtos () {
+export default function Login() {
     return (
         <div>
-            Pagina de Produtos
+            pagina de login
         </div>
     );
 }

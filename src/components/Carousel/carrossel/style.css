@@ -1,0 +1,12 @@
+.carrosel-principal {
+    display: flex;
+    padding: 0 8.5%;
+}
+
+.carrosel-texto {
+    position: absolute;
+}
+
+.carrossel-imagem {
+    position: right;
+}
