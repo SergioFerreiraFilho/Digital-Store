@@ -1,0 +1,19 @@
+.carousel-indicators li {
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    height: 12px;
+    width: 12px;
+}                                                  
+                                                                   
+.carousel-indicators .active {
+    border-radius: 50%;
+    background-color: #C92071;
+    height: 12px;
+    width: 12px
+}
+
+
+.tenis1 {
+    width: 733px;
+    height: 431px;
+}
