@@ -10,91 +10,119 @@ import './style.css'
 
 
 export default function CarouselImagem() {
-    return ( 
-        <Carousel className="carousel-principal">
-          <Carousel.Item>
-          <div style={{ backgroundImage: `url(${retangulo})`}} className="linha">
+  return (
+    <Carousel className="carousel-principal">
+      <Carousel.Item>
+        <div style={{ backgroundImage: `url(${retangulo})` }} className="linha">
 
-            <img className="bolinha2" src={bolinha2} alt="bolinha2" />
-            <img className="tenis1" src={tenis1} alt="tenis1" />
+          <img className="bolinha2" src={bolinha2} alt="bolinha2" />
+          <img className="tenis1" src={tenis1} alt="tenis1" />
+        </div>
+        <Carousel.Caption className="esquerda">
+          <div className="wrapper-frase1">
+            <p className="frase1"> Melhores ofertas personalizadas</p>
           </div>
-            <Carousel.Caption className="esquerda">
-            <div className="wrapper-frase1">
-              <p className="frase1"> Melhores ofertas personalizadas</p>
-            </div>
-              
-            <div className="wrapper-frase2">
-              <h2 className='frase2'>    
-              Queima de <br />stoque Nike 🔥                
-              </h2>
-              </div>
-              <div className="wrapper-frase3">
-              <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br/> do tempor laboris eiusmod irure consectetur</p>
-              </div>
-              <div className="wrapper-button1">
-               <a href="">
-               <button className="botao-ofertas">Ver Ofertas</button>
-               </a>
-           </div>
 
-            </Carousel.Caption>               
-          </Carousel.Item>
-
-          <Carousel.Item>
-          <div style={{ backgroundImage: `url(${retangulo})`}} className="">
-            <img className="bolinha2" src={bolinha2} alt="bolinha2" />
-            <img className="tenis1" src={tenis1} alt="" />
+          <div className="wrapper-frase2">
+            <h2 className='frase2'>
+              Queima de <br />stoque Nike 🔥
+            </h2>
           </div>
-            <Carousel.Caption className="esquerda">
-            <div className="wrapper-frase1">
-              <p className="frase1"> Melhores ofertas personalizadas</p>
-            </div>
-              
-            <div className="wrapper-frase2">
-              <h2 className='frase2'>    
-                  Queima de <br />stoque Nike 🔥                        
-              </h2>
-              </div>
-              <div className="wrapper-frase3">
-              <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br/> do tempor laboris eiusmod irure consectetur</p>
-              </div>
-              <div className="wrapper-button1">
-               <a href="">
-               <button className="botao-ofertas">Ver Ofertas</button>
-               </a>
-           </div>
-
-            </Carousel.Caption>               
-          </Carousel.Item>
-
-          <Carousel.Item>
-          <div style={{ backgroundImage: `url(${retangulo})`}} className="">
-            <img className="bolinha2" src={bolinha2} alt="bolinha2" />
-            <img className="tenis1" src={tenis1} alt="" />
+          <div className="wrapper-frase3">
+            <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
           </div>
-            <Carousel.Caption className="esquerda">
-            <div className="wrapper-frase1">
-              <p className="frase1"> Melhores ofertas personalizadas</p>
-            </div>
-              
-            <div className="wrapper-frase2">
-              <h2 className='frase2'>    
-                Queima de <br />stoque Nike 🔥                       
-              </h2>
-              </div>
-              <div className="wrapper-frase3">
-              <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br/> do tempor laboris eiusmod irure consectetur</p>
-              </div>
-              <div className="wrapper-button1">
-               <a href="">
-               <button className="botao-ofertas">Ver Ofertas</button>
-               </a>
-           </div>
+          <div className="wrapper-button1">
+            <a href="">
+              <button className="botao-ofertas">Ver Ofertas</button>
+            </a>
+          </div>
 
-            </Carousel.Caption>               
-          </Carousel.Item>
-         
-        </Carousel>
-      );
-    }
-    
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <div style={{ backgroundImage: `url(${retangulo})` }} className="">
+          <img className="bolinha2" src={bolinha2} alt="bolinha2" />
+          <img className="tenis1" src={tenis1} alt="" />
+        </div>
+        <Carousel.Caption className="esquerda">
+          <div className="wrapper-frase1">
+            <p className="frase1"> Melhores ofertas personalizadas</p>
+          </div>
+
+          <div className="wrapper-frase2">
+            <h2 className='frase2'>
+              Queima de <br />stoque Nike 🔥
+            </h2>
+          </div>
+          <div className="wrapper-frase3">
+            <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
+          </div>
+          <div className="wrapper-button1">
+            <a href="">
+              <button className="botao-ofertas">Ver Ofertas</button>
+            </a>
+          </div>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <div style={{ backgroundImage: `url(${retangulo})` }} className="">
+          <img className="bolinha2" src={bolinha2} alt="bolinha2" />
+          <img className="tenis1" src={tenis1} alt="" />
+        </div>
+        <Carousel.Caption className="esquerda">
+          <div className="wrapper-frase1">
+            <p className="frase1"> Melhores ofertas personalizadas</p>
+          </div>
+
+          <div className="wrapper-frase2">
+            <h2 className='frase2'>
+              Queima de <br />stoque Nike 🔥
+            </h2>
+          </div>
+          <div className="wrapper-frase3">
+            <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
+          </div>
+          <div className="wrapper-button1">
+            <a href="">
+              <button className="botao-ofertas">Ver Ofertas</button>
+            </a>
+          </div>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <div style={{ backgroundImage: `url(${retangulo})` }} className="linha">
+
+          <img className="bolinha2" src={bolinha2} alt="bolinha2" />
+          <img className="tenis1" src={tenis1} alt="tenis1" />
+        </div>
+        <Carousel.Caption className="esquerda">
+          <div className="wrapper-frase1">
+            <p className="frase1"> Melhores ofertas personalizadas</p>
+          </div>
+
+          <div className="wrapper-frase2">
+            <h2 className='frase2'>
+              Queima de <br />stoque Nike 🔥
+            </h2>
+          </div>
+          <div className="wrapper-frase3">
+            <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
+          </div>
+          <div className="wrapper-button1">
+            <a href="">
+              <button className="botao-ofertas">Ver Ofertas</button>
+            </a>
+          </div>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+
+    </Carousel>
+  );
+}
+
