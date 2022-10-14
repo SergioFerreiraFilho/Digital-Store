@@ -4,12 +4,14 @@
     margin-top: 34px;
     border-radius: 8px;
     background: #F8F8F8;
-    border: none;
-    
-   
+    border: none;   
 }
 
 .header-input-input::placeholder {
-    color: #A0A0A0;
     padding-left: 24px;
+    font-weight: 40;
+    font-family: inter;
+    letter-spacing: 0.75px;
+    color: #666666;
+    opacity: 0.6;
 }
