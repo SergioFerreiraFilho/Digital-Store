@@ -10,6 +10,9 @@ export default function Home (){
 
     return (
         <div>
+
+            <Carousel />            
+
             <Carrosel/>
             {/* div criada para colocar o fundo mais escuro nessas seções */}
             <div className='fundoEscuro'>
@@ -18,6 +21,7 @@ export default function Home (){
                 <ProdutosEmAlta/>
             </div>
             
+
             <OfertaEspecial />
         </div>
     );
