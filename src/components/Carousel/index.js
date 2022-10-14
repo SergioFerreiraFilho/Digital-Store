@@ -11,9 +11,9 @@ import './style.css'
 
 export default function CarouselImagem() {
     return ( 
-        <Carousel>
+        <Carousel className="carousel-principal">
           <Carousel.Item>
-          <div style={{ backgroundImage: `url(${retangulo})`}} className="">
+          <div style={{ backgroundImage: `url(${retangulo})`}} className="linha">
 
             <img className="bolinha2" src={bolinha2} alt="bolinha2" />
             <img className="tenis1" src={tenis1} alt="tenis1" />
