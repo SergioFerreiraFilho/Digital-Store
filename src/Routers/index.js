@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import Cadastrar from "../components/Cadastrar";
 import Login from "../components/Login";
 import ProdutoDetalhe from "../components/ProdutoDetalhe";
+import Footer from "../components/Footer"
 
 
 export default function Routers(){
@@ -22,6 +23,7 @@ export default function Routers(){
                     <Route path="/login" element={<Login />} />
                     <Route path="/produto-detalhe" element={<ProdutoDetalhe/>}/>
                 </Routes>
+                <Footer/>
         </BrowserRouter>
     );
 }

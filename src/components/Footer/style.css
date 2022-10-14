@@ -1,0 +1,45 @@
+.footer-principal{
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 454px;
+}
+
+.nome-digital{
+    margin-top: 72px;
+    margin-left: 145px;
+    height: 44px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.951px;
+    line-height: 44px;
+}
+
+.texto-footer{
+    margin-top: 35px;
+    width: 25%;
+    /* justify-content: flex-start; */
+}
+
+.icons-footer ul li{
+    color: white;
+    display: inline-block;
+    width: 25%;
+}
+
+.informacao-footer{
+    width: 25%;
+}
+
+.contato-footer{
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.final-footer{
+    width: 100%;
+    align-items: center;
+}
