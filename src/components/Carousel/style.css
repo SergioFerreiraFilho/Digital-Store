@@ -23,7 +23,7 @@
     width: 120px;
     height: 120px;
     left: 1080px;
-    top: 270px;
+    top: 100px;
     right: 37px;
     bottom: 0px;   
     z-index: 0;
@@ -31,17 +31,14 @@
   
 .tenis1 {
     display: flex;
-    margin-right: 0px;
-    /* margin-top: 180px; */
     padding-left: 360px;
 }
   
 .esquerda {
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-top: 2px;
     flex-direction: column;
     justify-content: center;
+    bottom: 100px;
+    left: 150px;
 }
   
 .frase1 {
@@ -52,20 +49,22 @@
     line-height: 22px;
     letter-spacing: 0.75px;
     text-align: left;
-    padding-left: 0px;
-    margin-left: 0px;    
 }
   
 .frase2 {
-    color: #474747;
+    color: #1F1F1F;
+    width: 510px;
+    height: 132px;
+    left: 100px;
+    top: 2px;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 64px;
+    line-height: 66px;
+    font-style: normal;
     font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: 0.99px;
+    letter-spacing: 1px;
     text-align: left;
-    padding-left: 0px;
-    margin-left: 0px
 }
   
 .frase3 {
@@ -78,6 +77,12 @@
     text-align: left;
     padding-left: 0px;
     margin-left: 0px;
+    padding: 0px;
+    margin:1px;
+    
+    /* padding-bottom: 20px;
+    padding-top: 24px;     */
+    
 }
   
 .botao-ofertas {
@@ -97,32 +102,41 @@
     text-align: center;
     color: #f5f5f5;
     cursor: pointer;
+    top: 30px;
 }
 
 .wrapper-frase1 {
-    padding-left: 0px;
-    padding-right: 200px;
-    padding-left: 0px;
-    margin-left: 0px;    
+   
     padding-bottom: 30px;
+    right: 800px;
 }
   
 .wrapper-frase2 {
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-bottom: 30px;
+    
+    padding-bottom: 10px;
+    right: 800px;
 }
   
 .wrapper-frase3 {
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-bottom: 40px;
+ 
+    padding-bottom: 10px;
+    padding-top: 24px;
+    right: 800px;
+    
 }
 
 .wrapper-button1 {
     position: absolute;
-    padding-left: 0px;
-    margin-left: 0px;
-    left: 0;   
-    bottom: 30%;
+    padding-top: 400px;
+    right: 800px;
+   
+    
+    /* bottom: 30%; */
 } 
+
+.carousel .carousel-indicators {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: black;
+}
