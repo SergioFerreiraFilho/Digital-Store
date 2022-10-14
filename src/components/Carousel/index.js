@@ -25,9 +25,7 @@ export default function CarouselImagem() {
               
             <div className="wrapper-frase2">
               <h2 className='frase2'>    
-                    QUEIMA DE 
-                    <br /> 
-                    STOQUE NIKE                    
+              Queima de <br />stoque Nike 🔥                
               </h2>
               </div>
               <div className="wrapper-frase3">
@@ -54,9 +52,7 @@ export default function CarouselImagem() {
               
             <div className="wrapper-frase2">
               <h2 className='frase2'>    
-                    QUEIMA DE 
-                    <br /> 
-                    STOQUE NIKE                    
+                  Queima de <br />stoque Nike 🔥                        
               </h2>
               </div>
               <div className="wrapper-frase3">
@@ -83,9 +79,7 @@ export default function CarouselImagem() {
               
             <div className="wrapper-frase2">
               <h2 className='frase2'>    
-                    QUEIMA DE 
-                    <br /> 
-                    STOQUE NIKE                    
+                Queima de <br />stoque Nike 🔥                       
               </h2>
               </div>
               <div className="wrapper-frase3">
