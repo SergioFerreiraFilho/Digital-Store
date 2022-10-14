@@ -1,6 +1,6 @@
 import OfertaEspecial from '../../components/OfertaEspecial';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carrosel from '../../components/Carousel/carrossel';
+import Carousel from '../../components/Carousel';
 import ColecaoEmDestaque from '../../components/ColecaoEmDestaque';
 import ColecaoEmDestaque2 from '../../components/ColecaoEmDestaque2';
 import ProdutosEmAlta from '../../components/ProdutosEmAlta';
@@ -13,7 +13,6 @@ export default function Home (){
 
             <Carousel />            
 
-            <Carrosel/>
             {/* div criada para colocar o fundo mais escuro nessas seções */}
             <div className='fundoEscuro'>
                 <ColecaoEmDestaque/>
