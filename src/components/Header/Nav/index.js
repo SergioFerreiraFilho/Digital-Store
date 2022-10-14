@@ -11,7 +11,7 @@ export default function Nav() {
     const ativarMeus_pedidos = (url) => url === location.pathname ? "ativarMeus-pedidos" : "meus-pedidos";
     
     return (
-        <nav>
+        <nav className="navegacao">
             <Link className={ativarHome('/')} to="/" >Home</Link>
             <Link className={ativarProdutos('/produtos')} to="/produtos" >Produtos</Link>
             <Link className={ativarCategorias('/categorias')} to="/categorias" >Categorias</Link>

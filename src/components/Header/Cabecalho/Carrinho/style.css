@@ -23,3 +23,7 @@
     font-weight: 700px;
     padding-bottom: 1px;
 }
+
+.wrapper{
+    position: relative;
+}
