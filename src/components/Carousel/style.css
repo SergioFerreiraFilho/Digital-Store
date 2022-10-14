@@ -1,12 +1,21 @@
+.carousel-principal {
+    height: 681px;
+    
+    padding-bottom: 100px;
+    margin-bottom: 1px;
+    margin-top: 100px;
+}
+
 .retangulo {
     position: absolute;
     width: 1440px ;
     height: 681px;
-    margin-top: 50px; 
+    margin-top: 2px; 
     padding-top: 20px;
     margin-bottom: 100px;
     padding-bottom: 50px;   
     background: #F5F5F5;
+    border: 2px solid red;
 }
 
 .bolinha2 {
@@ -23,13 +32,14 @@
 .tenis1 {
     display: flex;
     margin-right: 0px;
-    margin-top: 180px;
+    /* margin-top: 180px; */
     padding-left: 360px;
 }
   
 .esquerda {
     padding-left: 0px;
     margin-left: 0px;
+    margin-top: 2px;
     flex-direction: column;
     justify-content: center;
 }
