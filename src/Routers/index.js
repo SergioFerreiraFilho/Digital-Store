@@ -6,6 +6,7 @@ import Categorias from "../pages/Categorias";
 import Header from "../components/Header";
 import Cadastrar from "../components/Cadastrar";
 import Login from "../components/Login";
+import Footer from "../components/Footer"
 
 
 export default function Routers(){
@@ -20,6 +21,7 @@ export default function Routers(){
                     <Route path="/cadastrar" element={<Cadastrar/>} />
                     <Route path="/login" element={<Login />} />
                 </Routes>
+                <Footer/>
         </BrowserRouter>
     );
 }
