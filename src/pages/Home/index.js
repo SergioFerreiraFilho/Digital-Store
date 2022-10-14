@@ -1,12 +1,13 @@
 import OfertaEspecial from '../../components/OfertaEspecial';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carrosel from '../../components/Carousel/carrossel';
+import Carousel from '../../components/Carousel';
+
 
 export default function Home (){
 
     return (
         <div>
-            <Carrosel/>
+            <Carousel />            
             <OfertaEspecial />
         </div>
     );

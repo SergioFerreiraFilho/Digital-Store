@@ -10,6 +10,10 @@
 }
 
 .header-input-input::placeholder {
-    color: #A0A0A0;
     padding-left: 24px;
+    font-weight: 40;
+    font-family: inter;
+    letter-spacing: 0.75px;
+    color: #666666;
+    opacity: 0.6;
 }
