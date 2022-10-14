@@ -1,9 +1,12 @@
-import img from '../../../assets/ProdutosEmAlta/img-tennis-colecao.png'
+import img from '../../../assets/ProdutosEmAlta/img-tennis-colecao.png';
+// import './style.css'
 
 
 export default function ListarProdutos(){
     return (
-        <div>
+        <div>  
+            {/* Marcelo tem que trova os nomes das className pra começar a estilizar
+            essas className é da home que eu fiz, criei o arquivo style lá em cima  */}
             <div className='div-lista'>
                 <ul className='lista'>
                     <li className='item'>
