@@ -1,6 +1,7 @@
 .containe {
     margin: 0 71px;
     padding: 0;
+    padding-top: 40px;
 
 }
 
@@ -14,6 +15,7 @@
     letter-spacing: 0.75px;
     color: #474747;
     margin-bottom: 20px;
+    
 }
 
 .lista {

@@ -1,0 +1,10 @@
+.caixa {
+    margin: 0 71px;
+}
+.caixa3{
+    display: flex;
+    justify-content: space-between;
+}
+.filtrarpor{
+    width: 308px;
+}

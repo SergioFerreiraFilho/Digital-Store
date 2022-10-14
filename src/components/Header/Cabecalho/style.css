@@ -14,7 +14,6 @@
 
 .header-logo-name {
     display: flex;
-
 }
 
 .header-logo {
@@ -30,7 +29,7 @@
     padding-top: 47px;
     font-size: 36.4px;
     justify-content: center;
-    margin-left: 8px;
+    margin-left: 60px;
     color: #C92071;
 }
 
@@ -59,5 +58,6 @@
 
 .header-entrar {
     color: white;
+    font-family: inter;
     text-decoration: none;
 }
