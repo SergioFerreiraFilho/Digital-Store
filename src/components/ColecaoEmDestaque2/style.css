@@ -4,14 +4,12 @@
 }
 
 
-.div{
-    margin: 0 71px;
-}
 
 .divisão-principal {
     display: flex;
     flex-direction: row;
     margin-left: 364px;
+    margin-bottom: 123px;
 }
 
 .colecaoemdestaque2-h1 {
