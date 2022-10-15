@@ -1,0 +1,14 @@
+.MeuPerfil-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;    
+    position: absolute;
+    width: 334px;
+    height: 268px;
+    margin-top: 80px;
+    margin-left: 99px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
