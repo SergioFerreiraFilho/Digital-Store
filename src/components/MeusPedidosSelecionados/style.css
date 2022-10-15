@@ -1,0 +1,14 @@
+.MeusPedidosSelecionados-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;    
+    position: absolute;
+    width: 890px;
+    height: 572px;
+    margin-left: 449px;   
+    margin-top: 80px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
