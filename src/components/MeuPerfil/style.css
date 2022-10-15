@@ -30,10 +30,15 @@ color: #474747;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: 0.75px;
-    color: #C92071 !important; 
+    letter-spacing: 0.75px;    
 }
 
 .MeuPerfil-hr {
     width: 274px;
 }
+
+.LinkA-MeusPedidos {
+    text-decoration: none;
+    color: #474747;    
+}
+
