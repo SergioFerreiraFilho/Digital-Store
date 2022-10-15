@@ -1,0 +1,107 @@
+.MinhasInformacoes-body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;    
+    position: absolute;
+    width: 890px;
+    height: 572px;
+    margin-left: 449px;   
+    margin-top: 80px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.LinkA-MinhasInformações {
+    width: 86px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #C92071;
+    padding-left: 594px;
+}
+
+.Span-MinhasInformacoesTitulo {
+    width: 146px;
+    height: 22px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.LinkA-MinhasInformações:hover {
+    color: #C92071;
+    cursor: pointer;
+}
+
+
+.Span-InformacoesPessoais {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Span-Nome {
+    width: 45px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Span-Informacoesdeentrega {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Span-Informacao {
+    width: 178px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #1F1F1F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
