@@ -21,6 +21,7 @@
     justify-content: space-around;
     /* padding-top: 106px; */
     margin-top: 106px;
+    /* flex-flow: row wrap; */
     
 }
 
@@ -57,16 +58,50 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    white-space: nowrap;
 }
-
 
 .icons-footer{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    /* margin-left: 50px; */
-    /* margin-right: 36px; */
+    margin-top: 40px ;
+    
 }
+
+.icon-face{
+    /* position: absolute; */
+    width: 10.92px;
+    height: 20.53px;
+    left: 100px;
+    top: 269px;
+    /* white */
+}
+
+.icon-insta{/* Group 2555 */
+
+
+    /* position: absolute; */
+    left: 10.14%;
+    right: 88.47%;
+    top: 59.25%;
+    bottom: 36.32%;
+    padding-right: 36px;
+    padding-left: 36px;
+
+
+}
+
+.icon-tt{
+    /* position: absolute; */
+width: 22.12px;
+height: 18.24px;
+left: 202px;
+top: 270px;
+
+/* white */
+
+}
+
+
+
 
 .div-imgfooter{
     width: 33px;
@@ -75,11 +110,19 @@
     left: 8px;
 }
 
+.div-informacao{
+    padding-left: 102px;
+    margin-left: 205px;
+
+  /* flex-direction: column; */
+  /* display: block; */
+}
+
 .informacao-titulo{
     
     width: 99px;
     height: 22px;
-    margin-left: 102px;
+    /* margin-left: 102px; */
     top: 72px;
     font-family: 'Inter';
     font-style: normal;
@@ -87,14 +130,15 @@
     font-size: 18px;
     line-height: 22px;
     padding-top: 72px;
+    padding-bottom: 28px;
+
 
 }
 
 .informacao2{
-   
     width: 200px;
     height: 228px;
-    margin-left: 102px;
+    /* margin-left: 102px; */
     top: 122px;
     font-family: 'Inter';
     font-style: normal;
@@ -102,16 +146,22 @@
     font-size: 16px;
     line-height: 26px;
     padding-top: 28px;
-    padding-left: 102px;
+    /* padding-left: 102px; */
     text-align: left;
-
+    white-space: nowrap;
     
+}
+
+.categoria-geral{
+    margin-right: 170px;
+    
+
 }
 
 .categoria-titulo{
     width: 96px;
     height: 22px;
-    left: 849px;
+    /* left: 849px; */
     top: 72px;
     font-family: 'Inter';
     font-style: normal;
@@ -119,21 +169,26 @@
     font-size: 18px;
     line-height: 22px;
     padding-top: 72px;
+    padding-bottom: 28px;
+
 }
 
 .categoria-footer{
     width: 96px;
     height: 190px;
     /* left: 849px; */
-    top: 122px;
+    /* top: 122px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin-top: 28px;
     /* padding-top: 28px; */
-    padding-left: 102px;
+    /* padding-left: 102px; */
     text-align: left;
+    white-space: nowrap;
+
 
 
 }
@@ -149,6 +204,8 @@
     font-size: 18px;
     line-height: 22px;
     padding-top: 72px;
+    padding-bottom: 28px;
+
     
 }
 
@@ -162,6 +219,10 @@
     font-size: 16px;
     line-height: 26px;
     padding-top: 28px;
+    margin-right: 96px;
+    white-space: nowrap;
+
+
 }
 
 

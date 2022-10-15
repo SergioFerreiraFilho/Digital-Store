@@ -1,6 +1,8 @@
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import logoface from '../../assets/Footer/logoface.svg';
+import logoinsta from '../../assets/Footer/logoinsta.svg';
+import logott from '../../assets/Footer/logott.svg';
+import logofooter from '../../assets/Footer/logofooter.svg'
 import "./style.css";
-import logofooter from "../../assets/Footer/logofooter.svg";
 
 
 export default function Footer () {
@@ -18,15 +20,15 @@ export default function Footer () {
                 incididunt ut labore et dolore
                 </span>
                 <div className='icons-footer'>
-                    <FaFacebook/>
-                    <FaInstagram/>
-                    <FaTwitter/>
+                    <img className='icon-face' src={logoface}/>
+                    <img className='icon-insta'src={logoinsta}/>
+                    <img className='icon-tt' src={logott}/>
                 </div>
             </div>
 
-            <div>
-                <h3  className='informacao-titulo'>Informação</h3>
-                <ul  className='informacao2'>
+            <div className='div-informacao'>
+                <h3 className='informacao-titulo'>Informação</h3>
+                <ul className='informacao2'>
                     <li>Sobre Drip Store</li>
                     <li>Segurança</li>
                     <li>Wishlist</li>
@@ -37,7 +39,7 @@ export default function Footer () {
 
             </div>
 
-            <div>
+            <div className='categoria-geral'>
                 <h3 className='categoria-titulo'>Categorias</h3>
                 <ul className='categoria-footer'>
                     <li>Camisetas</li>
