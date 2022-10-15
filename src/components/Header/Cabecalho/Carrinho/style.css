@@ -24,6 +24,162 @@
     padding-bottom: 1px;
 }
 
-.wrapper{
+.wrapper {
     position: relative;
+}
+
+/* Css do modal do carrinho */
+/* .div-modalCarrinho{
+    position: relative;
+} */
+
+
+.modal-carrinho {
+
+    width: 316px;
+    /* 50px 1100px*/
+    margin-top: 3%;
+    margin-left: 73%;
+    /* font-family: 'inter'; */
+    /* margin: 0 auto; */
+}
+
+.titulo-modal-carrinho {
+    width: 115px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+
+    color: #474747;
+}
+
+.mudandoMarginLados-header {
+    margin: 0 15px;
+}
+
+.mudandoMarginLados {
+    margin: 15px 15px;
+    padding: 0;
+}
+
+.div1-novoItem {
+    height: 90px;
+    display: flex;
+    margin: 10px 0;
+}
+
+.div2-novoItem {
+    margin-left: 5px;
+    box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
+    border-radius: 2.66916px;
+    height: 58px;
+}
+
+.div3-novoItem {
+    font-family: 'Inter';
+    line-height: 21px;
+    letter-spacing: 0.75px;
+    margin-left: 20px;
+    color: #1F1F1F;
+}
+
+.riscado {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.div-modal-carrinho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.p-modal1 {
+    width: 94px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.p-modal2 {
+    width: 86px;
+    height: 24px;
+
+    /* Text Small Bold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    /* error */
+
+    color: #EE4266;
+
+}
+
+.div-modal-carrinho-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-modal-1 {
+    background-color: transparent;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #474747;
+}
+
+.button-modal-2 {
+    background: #C92071;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+
+    /* light-gray-3 */
+
+    color: #F5F5F5;
+}
+
+.button-modal-1:hover {
+    background-color: transparent;
+    border: none;
+    color: #474747;
+}
+
+.button-modal-2:hover{
+    background: #C92071;
+    border: none;
 }
