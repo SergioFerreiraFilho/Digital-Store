@@ -3,6 +3,15 @@
     /* flex-direction: column; */
 }
 
+/* Criei essa estilo pra fazer com o fundo ficasse no tamanho certo, tá a mesma coisa que vc deixou. Era só pq tinha uma margin em branco que não era pra ta. */
+.div-margin-padrao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-left: 71px;
+    margin-right: 71px;
+}
 
 .footer-principal{
     background-color: #1f1f1f;
@@ -12,8 +21,7 @@
     justify-content: space-around;
     /* padding-top: 106px; */
     margin-top: 106px;
-    margin-left: 71px;
-    margin-right: 71px;
+    
 }
 
 .div-digitalstore{

@@ -6,6 +6,7 @@ import logofooter from "../../assets/Footer/logofooter.svg";
 export default function Footer () {
     return (
         <footer className="footer-principal">
+            <div className='div-margin-padrao'>
             <div className="div-digitalstore">
                 <div className='div-footer-img'>
                     <img className="div-imgfooter" src={logofooter}/>
@@ -59,6 +60,7 @@ export default function Footer () {
             {/* <div className='final-footer'>
                 <p>@2022 Digital College</p>
             </div> */}
+            </div>
         </footer>
     );
 }
