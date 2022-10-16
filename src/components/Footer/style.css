@@ -2,17 +2,12 @@
 
 .div-footer-img{
     display: flex;
-
 }
 
-/* Criei essa estilo pra fazer com o fundo ficasse no tamanho certo, tá a mesma coisa que vc deixou. Era só pq tinha uma margin em branco que não era pra ta. */
 .div-margin-padrao{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
-    /* margin-left: 71px;
-    margin-right: 71px; */
 }
 
 .footer-principal{
@@ -24,8 +19,6 @@
     padding: 72px 100px;
     padding-bottom: 34px;
     flex-direction: column;
-
-    
 }
 
 .div-digitalstore{
@@ -33,8 +26,6 @@
     flex-wrap: wrap;
     width: 100px;
     flex-direction: column;
-   
-
 }
 
 .nome-digital{
@@ -46,12 +37,11 @@
     line-height: 44px;    
     letter-spacing: -0.01em;
     color: #FFFFFF;
-
 }
 
 .div-imgfooter{
     width: 33px;
-    height: 33px;
+    height: 44px;
     left: 8px;
 }
 
@@ -70,8 +60,7 @@
 }
 
 .icons-footer{
-    margin-top: 40px ;
-    
+    margin-top: 40px ; 
 }
 
 .icon-face{
@@ -85,8 +74,6 @@
     right: 88.47%;
     padding-right: 36px;
     padding-left: 36px;
-
-
 }
 
 .icon-tt{
@@ -99,14 +86,12 @@ ul li{
     padding-bottom: 15px;
 }
 
-
 .div-informacao{
     padding-left: 102px;
     margin-left: 205px;
 }
 
 .informacao-titulo{
-    
     width: 99px;
     height: 22px;
     top: 72px;
@@ -117,7 +102,6 @@ ul li{
     line-height: 22px;
     margin-bottom: 28px;
     color:#FFFFFF;
-
 }
 
 .informacao2{
@@ -202,7 +186,6 @@ ul li{
 }
 
 .finalfooter{
-    /* padding: 23px 100px; */
     margin-top: 69px;
     font-family: 'Inter', sans serif;
     font-style: normal;
@@ -218,7 +201,6 @@ ul li{
 }   
 
 .digitalpequeno{
-    /* padding: 23px; */
     font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 400;
@@ -226,8 +208,6 @@ ul li{
     line-height: 24px;
     display: flex;
     padding-top: 22px;
-    /* padding-right: 182px; */
-    /* margin-right: 518px; */
     align-items: center;
     color:#FFFFFF;
 }
