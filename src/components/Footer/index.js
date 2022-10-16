@@ -53,17 +53,19 @@ export default function Footer () {
                 <div>
                     <h3 className='contato-titulo'>Contato</h3>
                     <p className='contato-footer'>Av. Santos Dumont, 1510-1 <br/>
-                    andar- Aldeota, Fortaleza<br/>
-                    CE, 60150-161<br/>
-                    (85) 3051-3411<br/></p>
+                    andar- Aldeota, Fortaleza -<br/>
+                    CE, 60150-161<br/></p>
+                    <div className='numerofooter'>
+                        (85) 3051-3411
+                    </div>
+                    
                 </div>
                
             </div>
-            <hr className='hr-footer'/> 
-
-            {/* <span className='finalfooter'> */}
-                 @2022 Digital College
-            {/* </span> */}
+            
+            <div className='finalfooter'>
+                 <p className='digitalpequeno'>@2022 Digital College</p>
+            </div>
             
                 
         </section>

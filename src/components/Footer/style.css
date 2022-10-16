@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .div-footer-img{
     display: flex;
-    /* flex-direction: column; */
+
 }
 
 /* Criei essa estilo pra fazer com o fundo ficasse no tamanho certo, tá a mesma coisa que vc deixou. Era só pq tinha uma margin em branco que não era pra ta. */
@@ -8,20 +10,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    margin-left: 71px;
-    margin-right: 71px;
+    /* border: 1px solid red; */
+    /* margin-left: 71px;
+    margin-right: 71px; */
 }
 
 .footer-principal{
     background-color: #1f1f1f;
     color: white;
     display: flex;
-    height: 454px;
     justify-content: space-around;
-    /* padding-top: 106px; */
     margin-top: 106px;
-    /* flex-flow: row wrap; */
+    padding: 72px 100px;
+    padding-bottom: 34px;
+    flex-direction: column;
+
     
 }
 
@@ -30,22 +33,26 @@
     flex-wrap: wrap;
     width: 100px;
     flex-direction: column;
-    /* margin-left: 100px; */
+   
+
 }
 
 .nome-digital{
     padding-left: 8px;
-    right: 0%;
-    bottom: 0%;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36.3951px;
     line-height: 44px;    
     letter-spacing: -0.01em;
-    margin-top: 50px;
-    padding-top: 22px;
+    color: #FFFFFF;
 
+}
+
+.div-imgfooter{
+    width: 33px;
+    height: 33px;
+    left: 8px;
 }
 
 .texto-footer{
@@ -53,12 +60,13 @@
     height: 78px;
     left: 100px;
     top: 151px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     white-space: nowrap;
+    color: #FFFFFF;
 }
 
 .icons-footer{
@@ -67,22 +75,14 @@
 }
 
 .icon-face{
-    /* position: absolute; */
     width: 10.92px;
     height: 20.53px;
     left: 100px;
-    top: 269px;
-    /* white */
 }
 
-.icon-insta{/* Group 2555 */
-
-
-    /* position: absolute; */
+.icon-insta{
     left: 10.14%;
     right: 88.47%;
-    top: 59.25%;
-    bottom: 36.32%;
     padding-right: 36px;
     padding-left: 36px;
 
@@ -90,161 +90,147 @@
 }
 
 .icon-tt{
-    /* position: absolute; */
-width: 22.12px;
-height: 18.24px;
-left: 202px;
-top: 270px;
-
-/* white */
-
+    width: 22.12px;
+    height: 18.24px;
+    left: 202px;
 }
 
-
-
-
-.div-imgfooter{
-    width: 33px;
-    height: 33px;
-    margin-top: 77px;
-    left: 8px;
+ul li{
+    padding-bottom: 15px;
 }
+
 
 .div-informacao{
     padding-left: 102px;
     margin-left: 205px;
-
-  /* flex-direction: column; */
-  /* display: block; */
 }
 
 .informacao-titulo{
     
     width: 99px;
     height: 22px;
-    /* margin-left: 102px; */
     top: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    padding-top: 72px;
-    padding-bottom: 28px;
-
+    margin-bottom: 28px;
+    color:#FFFFFF;
 
 }
 
 .informacao2{
     width: 200px;
     height: 228px;
-    /* margin-left: 102px; */
-    top: 122px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    padding-top: 28px;
-    /* padding-left: 102px; */
     text-align: left;
     white-space: nowrap;
-    
+    padding-bottom: 34px;
+    color:#FFFFFF;   
 }
 
 .categoria-geral{
     margin-right: 170px;
-    
-
 }
 
 .categoria-titulo{
     width: 96px;
     height: 22px;
-    /* left: 849px; */
     top: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    padding-top: 72px;
-    padding-bottom: 28px;
-
+    margin-bottom: 28px;
+    color:#FFFFFF;
 }
 
 .categoria-footer{
     width: 96px;
     height: 190px;
-    /* left: 849px; */
-    /* top: 122px; */
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 28px;
-    /* padding-top: 28px; */
-    /* padding-left: 102px; */
     text-align: left;
     white-space: nowrap;
-
-
-
+    padding-bottom: 72px;
+    color:#FFFFFF;
 }
 
 .contato-titulo{
-    width: 99px;
+    width: 71px;
     height: 22px;
-    left: 612px;
-    top: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    padding-top: 72px;
-    padding-bottom: 28px;
-
-    
+    margin-bottom: 28px;
 }
 
 .contato-footer{
     width: 135px;
+    height: 78px;
     left: 612px;
-    top: 122px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    padding-top: 28px;
     margin-right: 96px;
     white-space: nowrap;
+    color: #FFFFFF;
 }
 
-.hr-footer{
-    padding-top: 384px;
+.numerofooter{
+    width: 135px;
+    height: 26px;
+    padding-top: 14px;
+    font-family: 'Inter', sans serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#FFFFFF;
 }
-.final-footer{
-/* width: 140px; */
-height: 24px;
-/* left: 618px; */
-margin-top: 408px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-/* line-height: 40px; */
-/* identical to box height, or 185% */
 
-
-/* white */
-
-color: #FFFFFF;
-
-/* mix-blend-mode: normal; */
+.finalfooter{
+    /* padding: 23px 100px; */
+    margin-top: 69px;
+    font-family: 'Inter', sans serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid white;
+    color:#FFFFFF;
 }   
+
+.digitalpequeno{
+    /* padding: 23px; */
+    font-family: 'Inter', sans serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    padding-top: 22px;
+    /* padding-right: 182px; */
+    /* margin-right: 518px; */
+    align-items: center;
+    color:#FFFFFF;
+}
 
 
 
