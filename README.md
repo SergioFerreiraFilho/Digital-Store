@@ -1,5 +1,5 @@
 ## Digital-Store
-# Projeto proposto pela a Digital College para testa nossas abilidades.
+# Projeto proposto pela a Digital College para testa nossas habilidades.
 ---------------------------------------------------------------------------------------------
 # Front-End:
 - React.js
