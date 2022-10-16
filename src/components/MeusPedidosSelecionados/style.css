@@ -1,10 +1,10 @@
-.MeusPedidosSelecionados-body {
+.meus-pedidos-selecionados-body {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 30px;
-    gap: 20px;    
-    position: absolute;
+    /* align-items: flex-start; */
+    /* padding: 30px; */
+    /* gap: 20px;     */
+    /* position: absolute; */
     width: 890px;
     height: 572px;
     margin-left: 449px;   
@@ -12,3 +12,107 @@
     background: #FFFFFF;
     border-radius: 4px;
 }
+
+.meus-pedidos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    /* margin-right: 956px; */
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+.status {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: #474747;
+    padding-left: 774px;
+}
+
+.linha {
+    width: 830px;
+    height: 0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.coluna-geral {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: 512.18px;
+    height: 58px;
+    flex: content;
+    order: 0;
+    flex-grow: 0;
+}
+
+.coluna-pedido {
+    display: flex;
+    flex-direction: column;
+    width: 421px;
+    height: 42px;
+    flex: content;
+    margin-top: 0px;
+}
+
+.imagem-tenis {
+    width: 150px;
+    height: 140px;
+    /* padding-top: 30px; */
+    padding-left: 10px;
+}
+
+.numero-pedido {
+    display: flex;
+    width: 420.82px;
+    height: 22px;
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #8F8F8F;
+}
+
+.descricao-produto {
+    width: 420.82px;
+    height: 20px;
+    /* padding-left: 141px; */
+    padding-top: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.status-produto {
+    width: 150px;
+    height: 20px;
+    padding-left: 500px;
+    padding-right: 30px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* line-height: 20px;
+    letter-spacing: 0.75px; */
+    color: #F6AA1C;
+}
+
+
+
