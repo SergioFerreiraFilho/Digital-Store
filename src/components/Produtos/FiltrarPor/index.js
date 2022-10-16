@@ -22,6 +22,37 @@ export default function FiltrarPor(){
 
                 <input id="puma" type="checkbox"/>
                 <label for="puma"> Puma</label>
+                
+                <h2>Categoria</h2>
+                <input id="esporte" type="checkbox"/>
+                <label for="esporte"> Esporte e lazer</label>
+                
+                <input id="casual" type="checkbox"/>
+                <label for="casual"> Casual</label>
+
+                <input id="ultilitario" type="checkbox"/>
+                <label for="ultilitario"> Ultilitario</label>
+                
+                <input id="corrida" type="checkbox"/>
+                <label for="corrida"> Corrida</label>
+                
+                <h2>Genero</h2>
+
+                <input id="masculino" type="checkbox"/>
+                <label for="masculino"> Masculino</label>
+
+                <input id="feminino" type="checkbox"/>
+                <label for="feminino">Feminino</label>
+
+                <input id="unisex" type="checkbox"/>
+                <label for="unisex">Unisex</label>
+                <h2>Estado</h2>
+
+                <input id="novo" type="radio"/>
+                <label for="novo"> Novo</label>
+                
+                <input id="usado" type="radio"/>
+                <label for="usado">Usado</label>
 
                 </form>
             </aside>
