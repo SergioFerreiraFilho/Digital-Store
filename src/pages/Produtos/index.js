@@ -6,10 +6,12 @@ import AllCollapse from "../../components/Produtos/AllCollapse";
 export default function Produtos () {
     return (
         <div className="caixa">
-            <div>
-                <p>Resultados para "Tênis" - 389 produtos </p>  
-                <AllCollapse/>
+            <div className="caixa2">
+                <p>Resultados para "Tênis" - 389 produtos </p> 
+                <AllCollapse className="collapse"/> 
             </div>
+          
+            
             <div className="caixa3">
                 <FiltrarPor className="filtrarpor"/>
                 <ListarProdutos/>
