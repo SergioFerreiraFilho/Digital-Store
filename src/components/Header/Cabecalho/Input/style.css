@@ -1,10 +1,11 @@
 .header-input-input {
     width: 559px;
     height: 60px;
-    margin-top: 34px;
+    margin-top: 0px;
     border-radius: 8px;
     background: #F8F8F8;
     border: none;   
+    text-decoration: none ;
 }
 
 .header-input-input::placeholder {
@@ -13,5 +14,21 @@
     font-family: inter;
     letter-spacing: 0.75px;
     color: #666666;
+    opacity: 0.8;
+}
+
+.lupa{
     opacity: 0.6;
+    color: #666666;
+}
+
+.header-input{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 20px;
 }

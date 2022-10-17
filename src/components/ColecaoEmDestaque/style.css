@@ -5,12 +5,13 @@
 
 }
 
-.titulo {
+.titulo-colecaoEmdestaque {
+    border: 1 px solid red;
     font-family: Inter;
     font-size: 24px;
     font-weight: 700;
     line-height: 38px;
-    width: 283px;
+    width: 383px;
     height: 38px;
     letter-spacing: 0.75px;
     color: #474747;

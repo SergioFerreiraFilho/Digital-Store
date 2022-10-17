@@ -3,7 +3,7 @@ import './style.css'
 export default function ColecaoEmDestaque () {
     return (
         <div className='containe'>
-            <h2 className='titulo'>Coleções em destaque</h2>
+            <h2 className='titulo-colecaoEmdestaque'>Coleções em destaque</h2>
             <ul className='lista'>
                 <li className='lista-li-1'>
                     <div className='caixa'>
