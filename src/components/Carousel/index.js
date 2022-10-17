@@ -1,4 +1,4 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import tenis1 from "../../assets/CarouselPrincipal/tenis.svg";
@@ -8,6 +8,7 @@ import retangulo from "../../assets/CarouselPrincipal/retangulo.svg";
 import './style.css'
 
 export default function CarouselImagem() {
+  const redirecionar = useNavigate();
   return (
     <Carousel className="carousel-principal">
       <Carousel.Item>
@@ -29,9 +30,7 @@ export default function CarouselImagem() {
             <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
           </div>
           <div className="wrapper-button1">
-            <a href="">
-              <button className="botao-ofertas">Ver Ofertas</button>
-            </a>
+              <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -54,9 +53,7 @@ export default function CarouselImagem() {
             <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
           </div>
           <div className="wrapper-button1">
-            <a href="">
-              <button className="botao-ofertas">Ver Ofertas</button>
-            </a>
+              <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -79,9 +76,7 @@ export default function CarouselImagem() {
             <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
           </div>
           <div className="wrapper-button1">
-            <a href="">
-              <button className="botao-ofertas">Ver Ofertas</button>
-            </a>
+              <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -105,9 +100,7 @@ export default function CarouselImagem() {
             <p className="frase3">Consequat culpa exercitation mollit nisi excepteur do <br /> do tempor laboris eiusmod irure consectetur</p>
           </div>
           <div className="wrapper-button1">
-            <a href="">
-              <button className="botao-ofertas">Ver Ofertas</button>
-            </a>
+              <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

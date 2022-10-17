@@ -55,9 +55,16 @@
 }
 
 .item-img {
+<<<<<<< HEAD
+    width: 292px;
+    height: 321px;
+    
+    
+=======
     width: 360px;
     height: 372px;
     margin-left: -27px;    
+>>>>>>> 757e50f6f8fc0bca26db56e0a48661cb7e87b661
 }
 
 .item-desconto {
@@ -80,7 +87,7 @@
     line-height: 24px;
     letter-spacing: 0.75px;
     color: #8F8F8F;
-    margin-top: -30px;
+    margin-top: 10px;
 }
 
 .item-para {

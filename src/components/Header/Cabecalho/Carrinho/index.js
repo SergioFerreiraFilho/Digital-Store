@@ -37,8 +37,16 @@ export default function Carrinho() {
         );
     }
 
+    const  semCarrinho = (a, b) =>{
+        if(a === location.pathname || b === location.pathname){
+            return "semCarrinho"
+        }else {
+            return  "";
+        }
+    }
+
     return (
-        <div>
+        <div className={semCarrinho('/cadastrar', '/login')}>
             <div className='wrapper'>
                 <img className='header-carrinho' ref={ref} src={img} />
                 <div className='bolinha'>2</div>

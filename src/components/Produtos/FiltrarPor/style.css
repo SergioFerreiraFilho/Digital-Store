@@ -1,0 +1,70 @@
+.caixa-filtraPor {
+    width: 308px;
+height: 720px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.aside-filtraPor{
+    margin: 0 30px;
+}
+
+.Titulo-master {
+    width: 85px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.75px;
+margin-top: 30px;
+color: #474747;
+}
+
+.titulo-filtraPor{
+    width: 46px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.75px;
+color: #474747;
+margin-top: 10px;
+}
+
+.label-filtraPor {
+    width: 107px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+margin-left: 10px;
+letter-spacing: 0.25px;
+color: #474747;
+
+}
+
+.checbox-filtrarPor {
+    background-color: #C92071;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.caixa-checkbox{
+    display: flex;
+    flex-direction: column;   
+}

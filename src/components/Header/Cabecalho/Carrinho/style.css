@@ -165,3 +165,7 @@
     background: #C92071;
     border: none;
 }
+
+.semCarrinho {
+    display: none;
+}

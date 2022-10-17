@@ -1,4 +1,14 @@
-.home {    
+.navegacao{
+    display: none;
+}
+
+.semNada {
+    
+}
+
+
+.home {
+    
     /* position: absolute; */
     width: 60px;
     height: 28px;

@@ -1,61 +1,96 @@
 import "./style.css"
 
-export default function FiltrarPor(){
+export default function FiltrarPor() {
     return (
-        <div className="container">
-            <aside className="col">
-                <h2>filtrar por</h2>
+        <div className="caixa-filtraPor">
+            <aside className="aside-filtraPor">
+                <h2 className="Titulo-master">Filtrar por</h2>
                 <hr></hr>
-                <h2>Marka</h2>
                 <form>
-                <input id="addidas" type="checkbox"/>
-                <label for="addidas"> Addidas</label>
+                    <h2 className="titulo-filtraPor">Marka</h2>
 
-                <input id="calenciaga" type="checkbox"/>
-                <label for="calenciaga">Calenciaga</label>
+                    <div className="caixa-checkbox">
+                        <div>
+                            <input id="addidas" type="checkbox" className="checbox-filtrarPor" />
+                            <label for="addidas" className="label-filtraPor"> Addidas</label>
+                        </div>
+                        <div>
+                            <input id="calenciaga" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="calenciaga" className="label-filtraPor">Calenciaga</label>
+                        </div>
+                        <div>
+                            <input id="kswiss" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="kswiss" className="label-filtraPor"> K-Swiss</label>
+                        </div>
+                        <div>
+                            <input id="nike" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="nike" className="label-filtraPor"> Nike</label>
+                        </div>
+                        <div>
+                            <input id="puma" type="checkbox" className="checbox-filtrarPor" />
+                            <label for="puma" className="label-filtraPor"> Puma</label>
+                        </div>
+                    </div>
 
-                <input id="kswiss" type="checkbox"/>
-                <label for="kswiss"> K-Swiss</label>
+                    <h2 className="titulo-filtraPor">Categoria</h2>
 
-                <input id="nike" type="checkbox"/>
-                <label for="nike"> Nike</label>
+                    <div className="caixa-checkbox">
+                        <div>
+                            <input id="esporte" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="esporte" className="label-filtraPor"> Esporte e lazer</label>
+                        </div>
+                        <div>
+                            <input id="casual" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="casual" className="label-filtraPor"> Casual</label>
+                        </div>
+                        <div>
+                            <input id="ultilitario" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="ultilitario" className="label-filtraPor"> Ultilitario</label>
+                        </div>
+                        <div>
+                            <input id="corrida" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="corrida" className="label-filtraPor"> Corrida</label>
+                        </div>
+                    </div>
 
-                <input id="puma" type="checkbox"/>
-                <label for="puma"> Puma</label>
-                
-                <h2>Categoria</h2>
-                <input id="esporte" type="checkbox"/>
-                <label for="esporte"> Esporte e lazer</label>
-                
-                <input id="casual" type="checkbox"/>
-                <label for="casual"> Casual</label>
 
-                <input id="ultilitario" type="checkbox"/>
-                <label for="ultilitario"> Ultilitario</label>
-                
-                <input id="corrida" type="checkbox"/>
-                <label for="corrida"> Corrida</label>
-                
-                <h2>Genero</h2>
+                    <h2 className="titulo-filtraPor">Genero</h2>
 
-                <input id="masculino" type="checkbox"/>
-                <label for="masculino"> Masculino</label>
+                    <div className="caixa-checkbox">
+                        <div>
+                            <input id="masculino" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="masculino" className="label-filtraPor"> Masculino</label>
+                        </div>
+                        <div>
+                            <input id="feminino" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="feminino" className="label-filtraPor">Feminino</label>
+                        </div>
+                        <div>
+                            <input id="unisex" type="checkbox" className="checbox-filtrarPor"/>
+                            <label for="unisex" className="label-filtraPor">Unisex</label>
+                        </div>
+                    </div>
 
-                <input id="feminino" type="checkbox"/>
-                <label for="feminino">Feminino</label>
+                    <h2 className="titulo-filtraPor">Estado</h2>
 
-                <input id="unisex" type="checkbox"/>
-                <label for="unisex">Unisex</label>
-                <h2>Estado</h2>
-
-                <input id="novo" type="radio"/>
-                <label for="novo"> Novo</label>
-                
-                <input id="usado" type="radio"/>
-                <label for="usado">Usado</label>
+                    <div className="caixa-checkbox">
+                        <div>
+                            <input id="novo" type="radio" className="checbox-filtrarPor"/>
+                            <label for="novo" className="label-filtraPor"> Novo</label>
+                        </div>
+                        <div>
+                            <input id="usado" type="radio" className="checbox-filtrarPor"/>
+                            <label for="usado" className="label-filtraPor">Usado</label>
+                        </div>
+                    </div>
 
                 </form>
+<<<<<<< HEAD
+            </aside>
+
+=======
             </aside>            
+>>>>>>> 757e50f6f8fc0bca26db56e0a48661cb7e87b661
         </div>
     )
 }
