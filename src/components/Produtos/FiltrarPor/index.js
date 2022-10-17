@@ -85,12 +85,8 @@ export default function FiltrarPor() {
                     </div>
 
                 </form>
-<<<<<<< HEAD
             </aside>
 
-=======
-            </aside>            
->>>>>>> 757e50f6f8fc0bca26db56e0a48661cb7e87b661
         </div>
     )
 }
