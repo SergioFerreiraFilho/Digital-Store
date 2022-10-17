@@ -15,12 +15,10 @@ export default function Carrinho() {
         element.addEventListener('click', handleShow);
     }, []);
 
-
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
 
     const NovoItem = () => {
         return(
@@ -53,7 +51,6 @@ export default function Carrinho() {
                 <img className='header-carrinho' ref={ref} src={img} />
                 <div className='bolinha'>2</div>
             </div>
-
             
             <Modal className='modal-carrinho ' show={show} onHide={handleClose}>
                 <Modal.Header className='mudandoMarginLados-header' >
@@ -73,14 +70,11 @@ export default function Carrinho() {
                         Esvaziar
                     </Button>
                     <Button  className='button-modal-2' onClick={handleClose}>
-                        Ver Caminho
+                        Ver Carrinho
                     </Button>
                     </div>
                 </Modal.Footer>
-            </Modal>
-            
+            </Modal>            
         </div>
     );
-
-
 }

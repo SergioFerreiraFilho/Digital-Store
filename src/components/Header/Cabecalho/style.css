@@ -11,7 +11,6 @@
     width: 100%;
 }
 
-
 .header-logo-name {
     display: flex;
 }
@@ -60,7 +59,6 @@
     line-height: 28px;
     letter-spacing: 0.75px;
     text-decoration-line: underline;
-
 }
 
 .header-button {

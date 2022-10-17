@@ -1,13 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import tenis1 from "../../assets/CarouselImg/tenis.svg";
-import bolinha2 from "../../assets/CarouselImg/bolinha2.svg";
-import retangulo from "../../assets/CarouselImg/retangulo.svg";
+import tenis1 from "../../assets/CarouselPrincipal/tenis.svg";
+import bolinha2 from "../../assets/CarouselPrincipal/bolinha2.svg";
+import retangulo from "../../assets/CarouselPrincipal/retangulo.svg";
 
 import './style.css'
-
-
 
 export default function CarouselImagem() {
   const redirecionar = useNavigate();
@@ -23,7 +21,6 @@ export default function CarouselImagem() {
           <div className="wrapper-frase1">
             <p className="frase1"> Melhores ofertas personalizadas</p>
           </div>
-
           <div className="wrapper-frase2">
             <h2 className='frase2'>
               Queima de <br />stoque Nike 🔥
@@ -35,7 +32,6 @@ export default function CarouselImagem() {
           <div className="wrapper-button1">
               <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
-
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -48,7 +44,6 @@ export default function CarouselImagem() {
           <div className="wrapper-frase1">
             <p className="frase1"> Melhores ofertas personalizadas</p>
           </div>
-
           <div className="wrapper-frase2">
             <h2 className='frase2'>
               Queima de <br />stoque Nike 🔥
@@ -60,7 +55,6 @@ export default function CarouselImagem() {
           <div className="wrapper-button1">
               <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
-
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -73,7 +67,6 @@ export default function CarouselImagem() {
           <div className="wrapper-frase1">
             <p className="frase1"> Melhores ofertas personalizadas</p>
           </div>
-
           <div className="wrapper-frase2">
             <h2 className='frase2'>
               Queima de <br />stoque Nike 🔥
@@ -85,7 +78,6 @@ export default function CarouselImagem() {
           <div className="wrapper-button1">
               <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
-
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -99,7 +91,6 @@ export default function CarouselImagem() {
           <div className="wrapper-frase1">
             <p className="frase1"> Melhores ofertas personalizadas</p>
           </div>
-
           <div className="wrapper-frase2">
             <h2 className='frase2'>
               Queima de <br />stoque Nike 🔥
@@ -111,10 +102,8 @@ export default function CarouselImagem() {
           <div className="wrapper-button1">
               <button className="botao-ofertas" onClick={() => redirecionar('/produtos') }>Ver Ofertas</button>
           </div>
-
         </Carousel.Caption>
       </Carousel.Item>
-
     </Carousel>
   );
 }

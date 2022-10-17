@@ -3,8 +3,6 @@
     src: url(/src/Inter-SemiBold.ttf);
 }
 
-
-
 .divisão-principal {
     display: flex;
     flex-direction: row;
@@ -25,7 +23,7 @@
     margin-bottom: 20px;
 }
 
-.divisao-camisa{
+.divisao-camisa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +32,7 @@
     height: 104px;
     width: 104px;
     border-radius: 150px;
-    
 }
-
 
 .span-camisa {
     text-align: center;
@@ -56,7 +52,7 @@
     padding-top: 12px;
 }
 
-.divisao-calca{
+.divisao-calca {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,10 +77,9 @@
     color: #474747;
     padding-top: 12px;
     margin-left: 75px;
-    
 }
 
-.divisao-calca{
+.divisao-calca {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,10 +104,9 @@
     color: #474747;
     padding-top: 12px;
     margin-left: 75px;
-    
 }
 
-.divisao-calca{
+.divisao-calca {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,10 +131,9 @@
     color: #474747;
     padding-top: 12px;
     margin-left: 75px;
-    
 }
 
-.divisao-headphone{
+.divisao-headphone {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,10 +158,9 @@
     color: #474747;
     padding-top: 12px;
     margin-left: 53px;
-    
 }
 
-.divisao-tenis{
+.divisao-tenis {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,6 +184,5 @@
     letter-spacing: 0.75px;
     color: #474747;
     padding-top: 12px;
-    margin-left: 80px;
-    
+    margin-left: 80px;   
 }

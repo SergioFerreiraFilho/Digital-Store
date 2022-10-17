@@ -14,14 +14,13 @@
 }
 
 .MeusPedidos-span {
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0.75px;
-color: #474747;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
 }
 
 .MeusPedidos-cor {

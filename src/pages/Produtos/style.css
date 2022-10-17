@@ -5,7 +5,7 @@
     margin-top: 35px ;
 }
 
-.caixa3{
+.caixa3 {
     display: flex;
     justify-content: space-between;
 }
@@ -26,10 +26,12 @@
 .filtrarpor{
     width: 308px;
 }
-.collapse{
+
+.collapse {
     width:400px;
 }
-.caixa2{
+
+.caixa2 {
     display: flex;
     justify-content: space-between;
 }

@@ -17,7 +17,6 @@ export default function Header() {
                 <Cabecalho />
                 <Nav />
             </div>
-        </div>
-        
+        </div>        
     );
 }

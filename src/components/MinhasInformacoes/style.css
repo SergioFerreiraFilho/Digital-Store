@@ -43,12 +43,10 @@
     flex-grow: 0;
 }
 
-
 .LinkA-MinhasInformações:hover {
     color: #C92071;
     cursor: pointer;
 }
-
 
 .Span-InformacoesPessoais {
     font-family: 'Inter';

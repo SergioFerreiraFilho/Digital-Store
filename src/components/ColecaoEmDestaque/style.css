@@ -2,7 +2,6 @@
     margin: 0 71px;
     padding: 0;
     padding-top: 40px;
-
 }
 
 .titulo-colecaoEmdestaque {
@@ -15,8 +14,7 @@
     height: 38px;
     letter-spacing: 0.75px;
     color: #474747;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .lista {
@@ -27,7 +25,6 @@
 .lista-li-1 {
     width: 32%;
     height: 258px;
-
     background-image: url(../../assets/ColecaoEmDestaque/img-blusa.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +34,6 @@
 .lista-li-2 {
     width: 32%;
     height: 281px;
-
     background-image: url(../../assets/ColecaoEmDestaque/img-tenis.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,7 +43,6 @@
 .lista-li-3 {
     width: 32%;
     height: 281px;
-
     background-image: url(../../assets/ColecaoEmDestaque/img-fone.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -61,7 +56,6 @@
 .lista-li-p {
     width: 90px;
     height: 27px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -71,7 +65,6 @@
     text-align: center;
     border-radius: 29px;
     padding: 8px 15px;
-
     color: #474747;
     background-color: #E7FF86;
 }
@@ -92,17 +85,14 @@
 .lista-li-button {
     width: 43%;
     height: 48px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: 0.75px;
     color: #c92071;
     text-align: center;
-
     background: #F5F5F5;
     border-radius: 8px;
     border: none;

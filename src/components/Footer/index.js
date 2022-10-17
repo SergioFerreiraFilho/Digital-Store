@@ -70,17 +70,13 @@ export default function Footer () {
                     CE, 60150-161<br/></p>
                     <div className='numerofooter'>
                         (85) 3051-3411
-                    </div>
-                    
-                </div>
-               
+                    </div>                    
+                </div>               
             </div>
             
             <div className='finalfooter'>
                  <p className='digitalpequeno'>@2022 Digital College</p>
-            </div>
-            
-                
+            </div>                
         </section>
     );
 }

@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.div-footer-img{
+.div-footer-img {
     display: flex;
 }
 
-.div-margin-padrao{
+.div-margin-padrao {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-principal{
+.footer-principal {
     background-color: #1f1f1f;
     color: white;
     display: flex;
@@ -50,7 +50,7 @@
     flex-direction: column;
 }
 
-.nome-digital{
+.nome-digital {
     padding-left: 8px;
     font-family: 'Inter', sans serif;
     font-style: normal;
@@ -61,13 +61,13 @@
     color: #FFFFFF;
 }
 
-.div-imgfooter{
+.div-imgfooter {
     width: 33px;
     height: 44px;
     left: 8px;
 }
 
-.texto-footer{
+.texto-footer {
     width: 307px;
     height: 78px;
     left: 100px;
@@ -81,39 +81,39 @@
     color: #FFFFFF;
 }
 
-.icons-footer{
+.icons-footer {
     margin-top: 40px ; 
 }
 
-.icon-face{
+.icon-face {
     width: 10.92px;
     height: 20.53px;
     left: 100px;
 }
 
-.icon-insta{
+.icon-insta {
     left: 10.14%;
     right: 88.47%;
     padding-right: 36px;
     padding-left: 36px;
 }
 
-.icon-tt{
+.icon-tt {
     width: 22.12px;
     height: 18.24px;
     left: 202px;
 }
 
-ul li{
+ul li {
     padding-bottom: 15px;
 }
 
-.div-informacao{
+.div-informacao {
     padding-left: 102px;
     margin-left: 205px;
 }
 
-.informacao-titulo{
+.informacao-titulo {
     width: 99px;
     height: 22px;
     top: 72px;
@@ -126,7 +126,7 @@ ul li{
     color:#FFFFFF;
 }
 
-.informacao2{
+.informacao2 {
     width: 200px;
     height: 228px;
     font-family: 'Inter', sans serif;
@@ -139,11 +139,11 @@ ul li{
     color:#FFFFFF;   
 }
 
-.categoria-geral{
+.categoria-geral {
     margin-right: 170px;
 }
 
-.categoria-titulo{
+.categoria-titulo {
     width: 96px;
     height: 22px;
     top: 72px;
@@ -156,7 +156,7 @@ ul li{
     color:#FFFFFF;
 }
 
-.categoria-footer{
+.categoria-footer {
     width: 96px;
     height: 190px;
     font-family: 'Inter', sans serif;
@@ -170,7 +170,7 @@ ul li{
     color:#FFFFFF;
 }
 
-.contato-titulo{
+.contato-titulo {
     width: 71px;
     height: 22px;
     font-family: 'Inter', sans serif;
@@ -181,7 +181,7 @@ ul li{
     margin-bottom: 28px;
 }
 
-.contato-footer{
+.contato-footer {
     width: 135px;
     height: 78px;
     left: 612px;
@@ -195,7 +195,7 @@ ul li{
     color: #FFFFFF;
 }
 
-.numerofooter{
+.numerofooter {
     width: 135px;
     height: 26px;
     padding-top: 14px;
@@ -207,7 +207,7 @@ ul li{
     color:#FFFFFF;
 }
 
-.finalfooter{
+.finalfooter {
     margin-top: 69px;
     font-family: 'Inter', sans serif;
     font-style: normal;
@@ -222,7 +222,7 @@ ul li{
     color:#FFFFFF;
 }   
 
-.digitalpequeno{
+.digitalpequeno {
     font-family: 'Inter', sans serif;
     font-style: normal;
     font-weight: 400;
@@ -233,11 +233,3 @@ ul li{
     align-items: center;
     color:#FFFFFF;
 }
-
-
-
-
-
-
-
-
