@@ -1,5 +1,4 @@
-// import quadrado from "../../assets/MeusPedidosSelecionados/quadrado.svg";
-// import tenispequeno from "../../assets/MeusPedidosSelecionados/tenispequeno.svg";
+
 import imagemtenis from "../../assets/PedidosSelecionados/tenisquadrado.svg";
 
 import "./style.css"
@@ -21,9 +20,45 @@ export default function MeusPedidosSelecionados() {
                     <p className="numero-pedido">Pedido nº 2234981932</p>
                     <p className="descricao-produto">Tênis Nike Revolution 6 Next Nature Masculino</p>
                     <p className="status-produto">Produto em trânsito</p>
-                </div>
+                </div>             
                 
-            </div>           
+            </div> 
+            <hr className="linha" />
+            <div className="coluna-geral">
+                <img className="imagem-tenis" src={imagemtenis} />
+
+                <div className="coluna-pedido">
+                    <p className="numero-pedido">Pedido nº 2234981932</p>
+                    <p className="descricao-produto">Tênis Nike Revolution 6 Next Nature Masculino</p>
+                    <p className="status-finalizado">Finalizado</p>
+                </div>           
+                
+            </div>
+
+            <hr className="linha" />
+            <div className="coluna-geral">
+                <img className="imagem-tenis" src={imagemtenis} />
+
+                <div className="coluna-pedido">
+                    <p className="numero-pedido">Pedido nº 2234981932</p>
+                    <p className="descricao-produto">Tênis Nike Revolution 6 Next Nature Masculino</p>
+                    <p className="status-cancelado">Cancelado</p>
+                </div>           
+                
+            </div> 
+
+            <hr className="linha" />
+            <div className="coluna-geral">
+                <img className="imagem-tenis" src={imagemtenis} />
+
+                <div className="coluna-pedido">
+                    <p className="numero-pedido">Pedido nº 2234981932</p>
+                    <p className="descricao-produto">Tênis Nike Revolution 6 Next Nature Masculino</p>
+                    <p className="status-finalizado">Finalizado</p>
+                </div>           
+                
+            </div>  
+
         </div>
     )
 }

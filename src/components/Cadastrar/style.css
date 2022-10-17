@@ -1,0 +1,132 @@
+.gradiente-cadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 1377px;
+    background: #E5E5E5;
+
+}
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+
+    width: 750px;
+    height: 538px;
+    left: 345px;
+    top: 208px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+}
+.form-cadastro-entrega {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 10px;
+
+    width: 750px;
+    height: 538px;
+    left: 345px;
+    top: 208px;
+
+    background: #FFFFFF;
+    border-radius: 4px; 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+
+}
+.input-cadast {
+    
+    width: 690px;
+    height: 60px;
+    left: 30px;
+    top: 121px;
+    opacity: 0.04;
+    background-color: #474747;
+    border-radius: 8px;
+}
+.input-cadast:hover {
+    
+    width: 690px;
+    height: 60px;
+    left: 30px;
+    top: 121px;
+    background-color: #474747;
+    border-radius: 8px;
+    color: #FFFFFF;
+    
+}
+.create-acc {
+
+    width: 440px;
+    height: 36px;
+    left: 344px;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+    margin-right: 315px;
+    margin-bottom: 20px;
+}
+.receive-email {
+    display: inline;
+    width: 718px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #474747;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 10px;
+}
+.checkbox-cadast{
+    Width: 22px;
+    Height: 22px;
+    Radius: 2px;
+    background-color: #C92071;
+    border: 1px solid #C92071;
+    accent-color: #C92071;
+    border-radius: 2px;
+}
+.cadastro-form-btn {
+    height: 48px;
+    width: 760px;
+    top: 0px;
+    background: #C92071;
+    color: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.75px;
+}
