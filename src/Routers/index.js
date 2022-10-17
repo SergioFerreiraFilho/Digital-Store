@@ -8,7 +8,7 @@ import Cadastrar from "../components/Cadastrar";
 import Login from "../components/Login";
 import ProdutoDetalhe from "../components/ProdutoDetalhe";
 import Footer from "../components/Footer"
-
+import Produto from "../components/Produtos/produto";
 
 export default function Routers(){
     return(
@@ -22,6 +22,7 @@ export default function Routers(){
                     <Route path="/cadastrar" element={<Cadastrar/>} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/produto-detalhe" element={<ProdutoDetalhe/>}/>
+                    <Route path ="/produto" element={<produto/>}/>
                 </Routes>
                 <Footer/>
         </BrowserRouter>

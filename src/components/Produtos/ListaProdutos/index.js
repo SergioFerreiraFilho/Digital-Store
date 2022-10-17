@@ -8,6 +8,7 @@ export default function ListarProdutos(){
             <div className='div-listas'>
                 <ul className='listas'>
                     <li className='itens'>
+                      
                         <img className='itens-img' src={img}/>
                         <p className='itens-desconto'>30% OFF</p>
                         <h5 className='itens-titulo'>Tênis</h5>

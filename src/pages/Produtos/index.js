@@ -3,6 +3,7 @@ import FiltrarPor from "../../components/Produtos/FiltrarPor";
 import ListarProdutos from "../../components/Produtos/ListaProdutos";
 import AllCollapse from "../../components/Produtos/AllCollapse";
 
+
 export default function Produtos () {
     return (
         <div className="caixa">
