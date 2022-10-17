@@ -33,6 +33,16 @@ color: #474747;
     letter-spacing: 0.75px;    
 }
 
+.setMeusPedidos-cor{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;   
+    color: #C92071;
+}
+
 .MeuPerfil-hr {
     width: 274px;
 }
@@ -40,5 +50,10 @@ color: #474747;
 .LinkA-MeusPedidos {
     text-decoration: none;
     color: #474747;    
+}
+
+.setLinkA-MeusPedidos{
+    text-decoration: none;
+    color: #C92071;
 }
 

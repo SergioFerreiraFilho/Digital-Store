@@ -57,9 +57,9 @@
 }
 
 .item-img {
-    width: 360px;
-    height: 372px;
-    margin-left: -27px;
+    width: 292px;
+    height: 321px;
+    
     
 }
 
@@ -83,7 +83,7 @@
     line-height: 24px;
     letter-spacing: 0.75px;
     color: #8F8F8F;
-    margin-top: -30px;
+    margin-top: 10px;
 }
 
 .item-para {

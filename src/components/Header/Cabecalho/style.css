@@ -23,10 +23,26 @@
     /* padding-bottom: 112px; */
 }
 
+.logo-layout{
+    height: 34px;
+    width: 33px;
+    margin-top: 11px;
+}
+
 .header-h2 {
     font-family: inter;
     height: 44px;
     padding-top: 47px;
+    font-size: 36.4px;
+    justify-content: center;
+    margin-left: 10px;
+    color: #C92071;
+}
+
+.header-h2-layout{
+    font-family: inter;
+    height: 44px;
+    padding-top: 10px;
     font-size: 36.4px;
     justify-content: center;
     margin-left: 10px;
@@ -60,4 +76,12 @@
     color: white;
     font-family: inter;
     text-decoration: none;
+}
+
+.semCadastrase {
+    display: none;
+}
+
+.semButton{
+    display: none;
 }

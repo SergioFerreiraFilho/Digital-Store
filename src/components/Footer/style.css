@@ -15,7 +15,29 @@
     color: white;
     display: flex;
     justify-content: space-around;
+    /* margin-top: 106px; */
+    padding: 72px 100px;
+    padding-bottom: 34px;
+    flex-direction: column;
+}
+
+.footer-home{
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
     margin-top: 106px;
+    padding: 72px 100px;
+    padding-bottom: 34px;
+    flex-direction: column;
+}
+
+.layoutFooter{
+    background-color: #1f1f1f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 106px; */
     padding: 72px 100px;
     padding-bottom: 34px;
     flex-direction: column;

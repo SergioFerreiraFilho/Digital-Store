@@ -4,10 +4,23 @@ import logott from '../../assets/Footer/logott.svg';
 import logofooter from '../../assets/Footer/logofooter.svg'
 import "./style.css";
 
+const footerLayoute = (a ,b, c) => {
+    if ( a === location.pathname || b === location.pathname){
+        return "layoutFooter";
+    } else if(c === location.pathname) {
+        return "footer-home";
+    }else {
+        return  "footer-principal";
+    }
+
+   
+        
+    
+}
 
 export default function Footer () {
     return (
-        <section className="footer-principal">
+        <section className={footerLayoute('/cadastrar', '/login', '/')}>
             <div className='div-margin-padrao'>
                 <div className="div-digitalstore">
                     <div className='div-footer-img'>

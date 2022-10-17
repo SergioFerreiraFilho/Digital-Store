@@ -4,3 +4,9 @@
 .container-header {
     margin: 0px 71px;
 }
+
+.layoutSoHeader{
+    margin: 0px 71px;
+    width: 100%;
+    height: 60px;
+}

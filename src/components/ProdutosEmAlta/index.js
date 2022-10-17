@@ -1,6 +1,6 @@
 import './style.css'
 import {ArrowRightAlt} from "@mui/icons-material";
-import img from '../../assets/ProdutosEmAlta/img-tennis-colecao.png'
+import img from '../../assets/ProdutosEmAlta/img-tennis-colecao2.png'
 import { Link } from 'react-router-dom';
 
 export default function ProdutosEmAlta () {

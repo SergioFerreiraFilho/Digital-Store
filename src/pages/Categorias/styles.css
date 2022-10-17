@@ -1,0 +1,15 @@
+.imagemCategoria{
+    font-weight: 700;
+    position: relative;
+    top: -700px;
+    width: 600px;
+    font-size: 4rem;
+    margin: 0 auto;
+    font-family: 'Inter';
+    color: #C92071;
+}
+
+.caixaCategoria {
+    margin-top: 42px;
+    height: 900px;
+}
