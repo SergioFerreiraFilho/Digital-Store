@@ -20,8 +20,8 @@ export default function Footer () {
                     incididunt ut labore et dolore
                     </span>
                     <div className='icons-footer'>
-                        <img className='icon-face' src={logoface}/>
-                        <img className='icon-insta'src={logoinsta}/>
+                        <a href='https://www.facebook.com/digitalcollegebr/'><img className='icon-face' src={logoface}/></a>
+                        <a href='https://www.instagram.com/digitalcollegebr/'><img className='icon-insta'src={logoinsta}/></a>
                         <img className='icon-tt' src={logott}/>
                     </div>
                 </div>
