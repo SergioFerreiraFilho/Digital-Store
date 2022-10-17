@@ -5,7 +5,6 @@
     left: 1309.75px;
 }
 
-
 .bolinha {
     position: absolute;
     height: 17px;
@@ -33,9 +32,7 @@
     position: relative;
 } */
 
-
-.modal-carrinho {
-    
+.modal-carrinho {    
     width: 316px;
     /* 50px 1100px*/
     margin-top: 3%;
@@ -47,14 +44,13 @@
 .titulo-modal-carrinho {
     width: 115px;
     height: 24px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    padding-bottom: 5px;
     letter-spacing: 0.75px;
-
     color: #474747;
 }
 
@@ -115,23 +111,14 @@
 .p-modal2 {
     width: 86px;
     height: 24px;
-
-    /* Text Small Bold */
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
     text-align: center;
     letter-spacing: 0.75px;
-
-    /* error */
-
     color: #EE4266;
-
 }
 
 .div-modal-carrinho-button {
@@ -161,15 +148,10 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
-    /* or 157% */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.75px;
-
-    /* light-gray-3 */
-
     color: #F5F5F5;
 }
 

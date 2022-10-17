@@ -7,8 +7,7 @@ export default function Input () {
             <input className="header-input-input" placeholder="Pesquisar produto..."/>
             <div>
                 <Search className="lupa"/>
-            </div>
-            
+            </div>            
         </div>
     );
 }

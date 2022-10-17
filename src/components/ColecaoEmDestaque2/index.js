@@ -11,37 +11,36 @@ export default function ColecaoEmDestaque2() {
                 Coleções em destaque
             </h1>
             <div className="divisão-principal">
-            <div className="divisao-camisa-principal">
-                <div className="divisao-camisa">
-                    <img className="camisa" src={camisa}></img>
+                <div className="divisao-camisa-principal">
+                    <div className="divisao-camisa">
+                        <img className="camisa" src={camisa}></img>
+                    </div>
+                        <span className="span-camisa">Camisetas</span>
                 </div>
-                    <span className="span-camisa">Camisetas</span>
-            </div>
-            <div className="divisao-calca-principal">
-                <div className="divisao-calca">
-                    <img className="camisa" src={calca}></img>
+                <div className="divisao-calca-principal">
+                    <div className="divisao-calca">
+                        <img className="camisa" src={calca}></img>
+                    </div>
+                        <span className="span-calca">Calças</span>
                 </div>
-                    <span className="span-calca">Calças</span>
-            </div>
-            <div className="divisao-calca-principal">
-                <div className="divisao-calca">
-                    <img className="" src={calca}></img>
+                <div className="divisao-calca-principal">
+                    <div className="divisao-calca">
+                        <img className="" src={calca}></img>
+                    </div>
+                        <span className="span-calca">Bonés</span>
                 </div>
-                    <span className="span-calca">Bonés</span>
-            </div>
-            <div className="divisao-headphone-principal">
-                <div className="divisao-headphone">
-                    <img className="camisa" src={headphone}></img>
+                <div className="divisao-headphone-principal">
+                    <div className="divisao-headphone">
+                        <img className="camisa" src={headphone}></img>
+                    </div>
+                        <span className="span-headphone">Headphones</span>
                 </div>
-                    <span className="span-headphone">Headphones</span>
-            </div>
-            <div className="divisao-tenis-principal">
-                <div className="divisao-tenis">
-                    <img src={tenis}></img>
-                </div>
-                    <span className="span-tenis">Tênis</span>
-            </div>
-            
+                <div className="divisao-tenis-principal">
+                    <div className="divisao-tenis">
+                        <img src={tenis}></img>
+                    </div>
+                        <span className="span-tenis">Tênis</span>
+                </div>            
             </div>
         </div>
     )

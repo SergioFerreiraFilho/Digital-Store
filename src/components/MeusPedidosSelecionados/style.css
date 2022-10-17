@@ -1,10 +1,6 @@
 .meus-pedidos-selecionados-body {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* padding: 30px; */
-    /* gap: 20px;     */
-    /* position: absolute; */
     width: 890px;
     height: 580px;
     margin-left: 449px;   
@@ -67,7 +63,6 @@
 .imagem-tenis {
     width: 150px;
     height: 140px;
-    /* padding-top: 30px; */
     padding-left: 10px;
 }
 
@@ -88,7 +83,6 @@
 .descricao-produto {
     width: 420.82px;
     height: 20px;
-    /* padding-left: 141px; */
     padding-top: 25px;
     font-family: 'Inter';
     font-style: normal;
@@ -115,7 +109,7 @@
     white-space: nowrap;
 }
 
-.status-finalizado{
+.status-finalizado {
     width: 77px;
     height: 20px;
     padding-left: 620px;

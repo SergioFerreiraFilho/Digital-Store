@@ -29,27 +29,7 @@ export default function ListarProdutos(){
                     </li>
                 </ul>
                 <ul className='listas2'>
-                <li className='itens'>
-                        <img className='itens-img' src={img}/>
-                        <h5 className='itens-titulo'>Tênis</h5>
-                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
-                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
-                    </li>
                     <li className='itens'>
-                        <img className='itens-img' src={img}/>
-                        <h5 className='itens-titulo'>Tênis</h5>
-                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
-                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
-                    </li>
-                    <li className='itens'>
-                        <img className='itens-img' src={img}/>
-                        <h5 className='itens-titulo'>Tênis</h5>
-                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
-                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
-                    </li>
-                </ul>
-                <ul className='listas2'>
-                <li className='itens'>
                         <img className='itens-img' src={img}/>
                         <h5 className='itens-titulo'>Tênis</h5>
                         <p className='itens-para'>K-Swiis V8 - Masculino</p>
@@ -69,7 +49,7 @@ export default function ListarProdutos(){
                     </li>
                 </ul>
                 <ul className='listas2'>
-                <li className='itens'>
+                    <li className='itens'>
                         <img className='itens-img' src={img}/>
                         <h5 className='itens-titulo'>Tênis</h5>
                         <p className='itens-para'>K-Swiis V8 - Masculino</p>
@@ -89,7 +69,27 @@ export default function ListarProdutos(){
                     </li>
                 </ul>
                 <ul className='listas2'>
-                <li className='itens'>
+                    <li className='itens'>
+                        <img className='itens-img' src={img}/>
+                        <h5 className='itens-titulo'>Tênis</h5>
+                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
+                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
+                    </li>
+                    <li className='itens'>
+                        <img className='itens-img' src={img}/>
+                        <h5 className='itens-titulo'>Tênis</h5>
+                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
+                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
+                    </li>
+                    <li className='itens'>
+                        <img className='itens-img' src={img}/>
+                        <h5 className='itens-titulo'>Tênis</h5>
+                        <p className='itens-para'>K-Swiis V8 - Masculino</p>
+                        <p className='itens-para2'><s className='riscados'>$200</s> $100</p>
+                    </li>
+                </ul>
+                <ul className='listas2'>
+                    <li className='itens'>
                         <img className='itens-img' src={img}/>
                         <h5 className='itens-titulo'>Tênis</h5>
                         <p className='itens-para'>K-Swiis V8 - Masculino</p>

@@ -1,19 +1,19 @@
-.listas{
+.listas {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
-.listas2{
+.listas2 {
     display: flex;
-    justify-content: space-between;
-    
-}   
+    justify-content: space-between;    
+}
+
 .riscados {
     width: 69px;
     color: #8F8F8F;
 }
-.itens{
+
+.itens {
     width: 300px;
     height: 480px;
     position: relative;
@@ -24,9 +24,9 @@
     height: 321px;
     left: 436px;
     top: 332px;
-    
 }
-.itens-desconto{
+
+.itens-desconto {
     font-family: 'Inter';
     position: absolute;
     top: 35px;
@@ -39,7 +39,8 @@
     border-radius: 29px;
     font-size: small;
 }
-.itens-titulo{
+
+.itens-titulo {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 12px;
@@ -48,6 +49,7 @@
     color: #8F8F8F;
     margin-top: -30px;
 }
+
 .itens-para {
     font-family: 'Inter';
     font-style: normal;
@@ -55,8 +57,7 @@
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.75px;
-    color: #474747;
-    
+    color: #474747;    
 }
 
 .itens-para2 {

@@ -9,14 +9,12 @@ export default function Produtos () {
             <div className="caixa2">
                 <p>Resultados para "Tênis" - 389 produtos </p> 
                 <AllCollapse className="collapse"/> 
-            </div>
-          
+            </div>          
             
             <div className="caixa3">
                 <FiltrarPor className="filtrarpor"/>
                 <ListarProdutos/>
-            </div>
-            
+            </div>            
         </div>
     );
 }

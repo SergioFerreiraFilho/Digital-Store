@@ -1,14 +1,14 @@
-.div{
+.div {
     margin: 0 71px;
 }
 
-.texto-cabecalho{
+.texto-cabecalho {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.texto-cabecalho-titulo{
+.texto-cabecalho-titulo {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 24px;
@@ -16,7 +16,7 @@
     letter-spacing: 0.75px;
 }
 
-.texto-cabecalho-link{
+.texto-cabecalho-link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -37,20 +37,18 @@
     flex-direction: column;
 }
 
-.lista{
+.lista {
     display: flex;
-    justify-content: space-between;
-  
+    justify-content: space-between;  
 }
 
-.lista2{
+.lista2 {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
-  
+    margin-bottom: 120px;  
 }
 
-.item{
+.item {
     width: 300px;
     height: 480px;
     position: relative;
@@ -59,11 +57,10 @@
 .item-img {
     width: 360px;
     height: 372px;
-    margin-left: -27px;
-    
+    margin-left: -27px;    
 }
 
-.item-desconto{
+.item-desconto {
     font-family: 'Inter';
     position: absolute;
     top: 35px;
@@ -76,7 +73,7 @@
     border-radius: 29px;
 }
 
-.item-titulo{
+.item-titulo {
     font-family: 'Inter';
     font-weight: 700;
     font-size: 12px;
@@ -94,7 +91,6 @@
     line-height: 38px;
     letter-spacing: 0.75px;
     color: #474747;
-    /* opacity: ; */
 }
 
 .riscado {
