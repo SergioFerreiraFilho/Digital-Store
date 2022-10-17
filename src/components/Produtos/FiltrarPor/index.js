@@ -55,8 +55,7 @@ export default function FiltrarPor(){
                 <label for="usado">Usado</label>
 
                 </form>
-            </aside>
-            
+            </aside>            
         </div>
     )
 }

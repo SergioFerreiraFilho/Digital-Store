@@ -1,4 +1,4 @@
-.gradiente{
+.gradiente {
     display: flex;
     width: 1440px;
     height: 1377px;
@@ -6,22 +6,22 @@
     background-image: url("fundo.png");
     background-repeat: no-repeat;
 }
+
 .form-login {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 30px;
     gap: 20px;
-
     position: absolute;
     width: 583px;
     height: 560px;
     left: 100px;
     top: 200px;
-
     background: #FFFFFF;
     border-radius: 4px;
 }
+
 .input {
     width:  523px;    
     border: none; 
@@ -33,6 +33,7 @@
     background: #474747;
     color: #666666;
 }
+
 .input:hover {
     width:  523px;    
     opacity: 0.4;
@@ -44,14 +45,17 @@
     background: #474747;
     color: #1F1F1F;
 }
+
 .forgot-password {
     text-decoration: underline;
     color: #474747;
 }
+
 .forgot-password:hover {
     text-decoration: underline;
     color: #474747;
 }
+
 .login-form-btn {
     height: 48px;
     width: 523px;
@@ -69,23 +73,24 @@
     text-align: center;
     letter-spacing: 0.75px;
 }
+
 .Acess-acc {
-        width: 523px;
-        height: 36px;
-        left: 30px;
-        top: 30px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 36px;
-        color: #1F1F1F;
-        letter-spacing: 1px;
+    width: 523px;
+    height: 36px;
+    left: 30px;
+    top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1F1F1F;
+    letter-spacing: 1px;
 }
+
 .register-login {
     width: 306px;
     height: 28px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -98,9 +103,11 @@
     order: 0;
     flex-grow: 0;
 }
+
 .link-aqui {
     color: #474747;
 }
+
 .text-login1 {
     display: flex;
     flex-direction: row;
@@ -109,5 +116,4 @@
     padding: 0px;
     gap: 20px;
     margin-left: 150px;    
-
 }
