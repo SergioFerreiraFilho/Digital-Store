@@ -27,7 +27,7 @@
 ## Squad
 ==============================================================================================
 ## Bruno => https://github.com/Bruno-TL
-## Fez/ajudou :
+## Fez/ajudou
 # components :
 - Cadastrar,
 - Colecão em Destaque,
@@ -45,7 +45,7 @@
 # Criei as Rotas, Links, states, condições.
 ------------------------------------------------------------------------------------------------
 ## Sergio => https://github.com/SergioFerreiraFilho
-## Fez/ajudou :
+## Fez/ajudou
 # components:
 - Header,
 - Carrosel,
@@ -57,7 +57,7 @@
 # implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
 ## Diene => https://github.com/DieneLopes
-## Fez/ajudou :
+## Fez/ajudou
 # components:
 - Header,
 - Carrosel,
@@ -69,31 +69,30 @@
 # implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
 ## Ciro => https://github.com/cirojales
-## Fez/ajudou :
+## Fez/ajudou
 # components:
 - Oferta Especial
 - Header
 ------------------------------------------------------------------------------------------------
 ## Matheus => https://github.com/SergioMatheuss
-## Fez/ajudou:
+## Fez/ajudou
 # components:
-- Produto Detalhe( Fazendo(talvez) )
 - Login
 - Cadastar
 ------------------------------------------------------------------------------------------------
 ## Neville => https://github.com/n3vill
-## Fez/ajudou:
+## Fez/ajudou
 # components:
 - Footer
 # Criou a rota do footer
 ------------------------------------------------------------------------------------------------
 ## Samuel => https://github.com/Smz1n
-## Fez/ajudou:
+## Fez/ajudou
 # components:
 - Produto Detalhe( Fazendo(talvez) )
 ------------------------------------------------------------------------------------------------
 ## Marcelo => https://github.com/cerealpuppet
-## Fez/ajudou:
+## Fez/ajudou
 # components:
 - Produtos
 # Implementou AllCollapse do bootstrap-react
