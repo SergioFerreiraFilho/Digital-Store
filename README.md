@@ -1,5 +1,5 @@
 ## Digital-Store
-# Projeto proposto pela a Digital College para testa nossas habilidades.
+# Projeto proposto pela a Digital College para testar nossas habilidades.
 ---------------------------------------------------------------------------------------------
 # Front-End:
 - React.js
@@ -25,7 +25,7 @@
   Um refresh na página faz com que o style volte a normal.
 ----------------------------------------------------------------------------------------------
 ## Squad
-==============================================================================================
+================================================================================
 ## Bruno => https://github.com/Bruno-TL
 ## Fez/ajudou
 # components :
@@ -53,6 +53,7 @@
 - Meus Pedidos Selecionados,
 - Minhas Informações
 # Pages:
+- Home
 - Meus Pedidos
 # implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
@@ -65,6 +66,7 @@
 - Meus Pedidos Selecionados,
 - Minhas Informações
 # Pages:
+- Home
 - Meus Pedidos
 # implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
