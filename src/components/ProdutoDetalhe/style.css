@@ -1,0 +1,29 @@
+.divProdutoDetalhe{
+    display: flex;
+    margin: 0 71px;
+
+}
+
+.containerProdutoDetalhe{
+   width: 700.73px;
+   height: 571px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border: 2px solid black;
+}
+
+.containerProdutoDetalhe2{
+    width: 700.73px;
+    height: 571px;
+    border: 2px solid black;
+}
+
+
+
+.imagemProdutoDetalhe {
+   /* width: 498.73px; 
+    height: 248px; */
+    padding: 0 100px;
+}
+
