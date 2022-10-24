@@ -5,8 +5,8 @@ export default function AllCollapse() {
   return (
     <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Ordenar por: mais relevantes</Accordion.Header>
-        <Accordion.Body>
+        <Accordion.Header className='allcollaps-titulo'>Ordenar por: mais relevantes</Accordion.Header>
+        <Accordion.Body >
           Mais barato.
         </Accordion.Body>
         <Accordion.Body>

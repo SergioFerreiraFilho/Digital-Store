@@ -1,4 +1,10 @@
-/* .accordion{
-    width:400px;  
-    
-} */
+.allcollaps-titulo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+
+}

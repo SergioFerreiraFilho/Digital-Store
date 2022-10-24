@@ -5,6 +5,7 @@ import { useRef, useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Carrinho() {
@@ -54,7 +55,7 @@ export default function Carrinho() {
             
             <Modal className='modal-carrinho ' show={show} onHide={handleClose}>
                 <Modal.Header className='mudandoMarginLados-header' >
-                    <Modal.Title className='titulo-modal-carrinho'>Meu Carrinho</Modal.Title>
+                    <Modal.Title className='titulo-modal-meuCarrinho'>Meu Carrinho</Modal.Title>
                 </Modal.Header>
                 <Modal.Body >
                      <NovoItem/>
@@ -70,7 +71,7 @@ export default function Carrinho() {
                         Esvaziar
                     </Button>
                     <Button  className='button-modal-2' onClick={handleClose}>
-                        Ver Carrinho
+                        <Link className='link-carrinho' to="/produto-detalhe">Ver Carrinho</Link>
                     </Button>
                     </div>
                 </Modal.Footer>

@@ -1,12 +1,11 @@
 import { useState } from "react";
-import MeuPerfil from "../../components/MeuPerfil";
 import MeusPedidosSelecionados from "../../components/MeusPedidosSelecionados";
 import MinhasInformacoes from "../../components/MinhasInformacoes";
 import "./style.css"
 
 export default function MeusPedidos() {
-    const [item, setItem] = useState('');
-    const [cssMeusPedidos, setCssMeusPedidos] = useState('MeusPedidos-cor');
+    const [item, setItem] = useState(<MeusPedidosSelecionados/>);
+    const [cssMeusPedidos, setCssMeusPedidos] = useState('setMeusPedidos-cor');
     const [cssInformacao, setCssInformacao] = useState('LinkA-MeusPedidos')
 
     const selecionadoMeusPedidos = () => {
