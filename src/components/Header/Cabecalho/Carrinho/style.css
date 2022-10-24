@@ -41,8 +41,8 @@
     /* margin: 0 auto; */
 }
 
-.titulo-modal-carrinho {
-    width: 115px;
+.titulo-modal-meuCarrinho {
+    width: 125px;
     height: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -97,7 +97,7 @@
 }
 
 .p-modal1 {
-    width: 94px;
+    width: 104px;
     height: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -168,4 +168,13 @@
 
 .semCarrinho {
     display: none;
+}
+
+.link-carrinho {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-carrinho:hover {
+   color: #fff; 
 }

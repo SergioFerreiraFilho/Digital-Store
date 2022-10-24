@@ -1,29 +1,150 @@
-.divProdutoDetalhe{
+.divProdutoDetalhe {
+    padding: 20px 0;
     display: flex;
-    margin: 0 71px;
+    width: 100%;
 
 }
 
-.containerProdutoDetalhe{
-   width: 700.73px;
-   height: 571px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    border: 2px solid black;
-}
-
-.containerProdutoDetalhe2{
+.containerProdutoDetalhe {
     width: 700.73px;
+    margin: 0 30px 0 71px;
     height: 571px;
-    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2E3FF;
+}
+
+.containerProdutoDetalhe2 {
+    width: 500px;
+    height: 571px;
 }
 
 
 
 .imagemProdutoDetalhe {
-   /* width: 498.73px; 
+    /* width: 498.73px; 
     height: 248px; */
     padding: 0 100px;
 }
 
+.titulo-produtoDetalhe {
+    margin-top: 15px;
+    width: 440px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.ref-produtoDetalhe {
+    width: 425px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+
+.estrela {
+    color: #F6AA1C;
+}
+
+.estrela-vazia {
+    color: #F6AA1C;
+}
+
+.preco-produtoDetalhe {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #474747;
+}
+
+.riscadoProduto {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration-line: line-through;
+    color: #CCCCCC;
+}
+
+.descricao-produtoDetalhe {
+    width: 162px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.parag-produtoDetalhe {
+    width: 440px;
+    height: 66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.tamanhoTennis-produtoDetalhe {
+    width: 68px;
+    height: 22px;
+    left: 841px;
+    top: 611px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.buttonTamanhoTennis {
+    margin: 15px 0;
+    width: 48px;
+height: 48px;
+    background: #FFFFFF;
+/* light-gray-2 */
+
+border: 1px solid #CCCCCC;
+border-radius: 4px;
+}
+
+.buttonTamanhoTennis:hover{
+    background: #C92071;
+    color: #fff;
+}
+
+.botaoComprar-produtoDetalhe {
+    color: #fff;
+    background: #FFB31F;
+border-radius: 8px;
+border: none;
+width: 200px;
+height: 48px;
+}

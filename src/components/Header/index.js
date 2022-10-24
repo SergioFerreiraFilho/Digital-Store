@@ -1,22 +1,30 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Cabecalho from "./Cabecalho";
 import Nav from "./Nav";
 import "./style.css"
 
-const layout = (a ,b) => {
-    if ( a === location.pathname || b === location.pathname){
-        return "layoutSoHeader";
-    }else {
-        return  "container-header";
-    }
-}
-
 export default function Header() {
+    const [item, setItem] = useState("container-header")
+    const navigate = useNavigate()
+    useEffect(() => {
+        // const layout = () => {
+            if ('/cadastrar' === location.pathname || '/login' === location.pathname) {
+                setItem("layoutSoHeader");
+            }else {
+                setItem('container-header')
+            }
+        // }
+    },[navigate])
+
+
+
     return (
-        <div className={layout('/cadastrar', '/login')}>
+        <div className={item}>
             <div className="header-header">
                 <Cabecalho />
                 <Nav />
             </div>
-        </div>        
+        </div>
     );
 }

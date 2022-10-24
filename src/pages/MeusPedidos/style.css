@@ -4,3 +4,61 @@
     background-color: #F9F8FE;
     margin-top: 29px;
 }
+
+.MeuPerfil-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;    
+    position: absolute;
+    width: 334px;
+    height: 268px;
+    margin-top: 80px;
+    margin-left: 99px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.MeusPedidos-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.MeusPedidos-cor {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;    
+}
+
+.setMeusPedidos-cor{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;   
+    color: #C92071;
+}
+
+.MeuPerfil-hr {
+    width: 274px;
+}
+
+.LinkA-MeusPedidos {
+    text-decoration: none;
+    color: #474747;    
+}
+
+.setLinkA-MeusPedidos{
+    text-decoration: none;
+    color: #C92071;
+}

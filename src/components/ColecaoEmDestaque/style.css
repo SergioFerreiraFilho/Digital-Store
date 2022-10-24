@@ -5,7 +5,6 @@
 }
 
 .titulo-colecaoEmdestaque {
-    border: 1 px solid red;
     font-family: Inter;
     font-size: 24px;
     font-weight: 700;
@@ -19,15 +18,15 @@
 
 .lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .lista-li-1 {
     width: 32%;
-    height: 258px;
+    height: 272px;
     background-image: url(../../assets/ColecaoEmDestaque/img-blusa.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-radius: 8px;
 }
 
@@ -50,8 +49,7 @@
 }
 
 .caixa {
-    margin: 34px;
-}
+    margin: 34px;}
 
 .lista-li-p {
     width: 90px;
