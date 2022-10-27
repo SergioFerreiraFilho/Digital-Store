@@ -1,26 +1,29 @@
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import logoface from '../../assets/Footer/logoface.svg';
 import logoinsta from '../../assets/Footer/logoinsta.svg';
 import logott from '../../assets/Footer/logott.svg';
 import logofooter from '../../assets/Footer/logofooter.svg'
 import "./style.css";
 
-const footerLayoute = (a ,b, c) => {
-    if ( a === location.pathname || b === location.pathname){
-        return "layoutFooter";
-    } else if(c === location.pathname) {
-        return "footer-home";
-    }else {
-        return  "footer-principal";
-    }
 
-   
-        
-    
-}
 
 export default function Footer () {
+
+    const [footer, setFooter] = useState("footer-principal")
+    const navigate = useNavigate()
+    useEffect(() => {
+            if ( '/cadastrar' === location.pathname || '/login' === location.pathname){
+                setFooter("layoutFooter")
+            } else if( '/' === location.pathname) {
+                setFooter("footer-home")
+            }else {
+                setFooter("footer-principal")
+            } 
+    },[navigate])
+    
     return (
-        <section className={footerLayoute('/cadastrar', '/login', '/')}>
+        <section className={footer}>
             <div className='div-margin-padrao'>
                 <div className="div-digitalstore">
                     <div className='div-footer-img'>
