@@ -1,4 +1,4 @@
-import img from '../../../assets/ProdutosEmAlta/img-tennis-colecao.png';
+import img from '../../../assets/ProdutosEmAlta/img-tennis-colecao2.png';
 import './style.css'
 
 
