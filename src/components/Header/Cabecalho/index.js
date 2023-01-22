@@ -6,7 +6,7 @@ import logo from '../../../assets/Header/logo.svg';
 import "./style.css";
 
 export default function Cabecalho() {
-    // script para fazer que ao clicar na logo ou no nome da empresa leve a pag Home
+    // script para fazer com que ao clicar na logo ou no nome da empresa leve a pag Home
     const navigate = useNavigate();
     const irParaHome = () => navigate('/')
     const ref = useRef(null);

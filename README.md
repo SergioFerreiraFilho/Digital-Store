@@ -1,5 +1,6 @@
 ## Digital-Store
-# Projeto proposto pela a Digital College para testar nossas habilidades.
+# Projeto proposto pela Digital College para testar nossas habilidades em curto prazo.
+- Foi proposto um layout no Figma, realizando fielmente o que foi pedido.
 ---------------------------------------------------------------------------------------------
 # Front-End:
 - React.js
@@ -19,10 +20,9 @@
 ----------------------------------------------------------------------------------------------
 
 # Comando para utilizar o nosso projeto : 
-- npm install && npm start;
+- Ter instalado o Node.js.
+- Executar no terminal `npm install && npm start` para adicionar o node_modules.
 => Com esse comando você irá baixar as bibliotecas necessária para a funcionaliadades do projeto e iniciará o servidor do React.js.
-=> O css esta com um bug, pq não utilizei o state nas condições para mudar o classNames do Headers(falha minha desculpas).
-  Um refresh na página faz com que o style volte a normal.
 ----------------------------------------------------------------------------------------------
 ## Squad
 ================================================================================
@@ -42,7 +42,7 @@
 - Home,
 - Meus Pedidos,
 - Produtos
-# Criei as Rotas, Links, states, condições.
+# Criou as Rotas, Links, states, condições.
 ------------------------------------------------------------------------------------------------
 ## Sergio => https://github.com/SergioFerreiraFilho
 ## Fez/ajudou
@@ -55,7 +55,7 @@
 # Pages:
 - Home
 - Meus Pedidos
-# implementou o carrosel do bootstrap-react
+# Implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
 ## Diene => https://github.com/DieneLopes
 ## Fez/ajudou
@@ -68,7 +68,7 @@
 # Pages:
 - Home
 - Meus Pedidos
-# implementou o carrosel do bootstrap-react
+# Implementou o carrosel do bootstrap-react
 ------------------------------------------------------------------------------------------------
 ## Ciro => https://github.com/cirojales
 ## Fez/ajudou

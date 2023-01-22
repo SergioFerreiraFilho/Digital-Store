@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import Cadastrar from "../components/Cadastrar";
 import Login from "../components/Login";
 import ProdutoDetalhe from "../components/ProdutoDetalhe";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 
 export default function Routers(){
